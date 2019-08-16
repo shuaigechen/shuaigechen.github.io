@@ -51,20 +51,30 @@
 
 &lt;p&gt;HTML是Tim Berners-Lee发明的&lt;/p&gt;
 
-&lt;p&gt;HTML起手先输入 ！
-&lt;code&gt;
-&amp;lt;!DOCTYPE html&amp;gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-&lt;meta charset=&#34;UTF-8&#34;&gt;
-&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
-&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
-&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;HTML起手先输入 ！&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;html lang=&#34;en&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;head&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta charset=&#34;UTF-8&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, 
+initial-scale=1.0&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/head&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/html&gt;&lt;/p&gt;
 
 &lt;p&gt;HTML常用的章节标签有&lt;/p&gt;
 
@@ -154,20 +164,34 @@
 
 &lt;p&gt;HTML是Tim Berners-Lee发明的&lt;/p&gt;
 
-&lt;p&gt;HTML起手先输入 ！
-&lt;code&gt;
-&amp;lt;!DOCTYPE html&amp;gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-&lt;meta charset=&#34;UTF-8&#34;&gt;
-&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
-&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
-&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;HTML起手先输入 ！&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;html lang=&#34;en&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;head&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta charset=&#34;UTF-8&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, 
+initial-scale=1.0&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/head&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/html&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;HTML常用的章节标签有&lt;/p&gt;
 
