@@ -6,18 +6,27 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Aug 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 15:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>HTML入门笔记1</title>
+      <title>HTML入门笔记</title>
+      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 16 Aug 2019 15:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+      <description>HTML入门笔记1 今天是19年8月16号,这周学习了HTML入门 写博客记录下来 HTML是Tim Berners-Lee发明的 HTML起手先输入</description>
+    </item>
+    
+    <item>
+      <title>HTML入门笔记</title>
       <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
-      <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
+      <pubDate>Fri, 16 Aug 2019 15:51:31 +0800</pubDate>
       
       <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
-      <description>HTML入门笔记1 今天是19年8月6号，这周学习了HTML入门，这是本周学到的知识总结，写博客记录下来 HTML是Tim Berners-Lee</description>
+      <description>HTML入门笔记1 今天是19年8月16号,这周学习了HTML入门 写博客记录下来 HTML是Tim Berners-Lee发明的 HTML起手先输入</description>
     </item>
     
     <item>
@@ -36,15 +45,6 @@
       
       <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>今天学习了创建博客 使用Hugo，go语言实现的一个博客生成器 在vscode上，使用 Hugo官网代码，按步骤创建博客框架 创建 .gitignore 文件，输入 /public/ 打开</description>
-    </item>
-    
-    <item>
-      <title>第二篇博客</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 12 Aug 2019 10:51:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>又见面了 希望这次创建博客，可以一次成功，已经修好了好几次了</description>
     </item>
     
   </channel>

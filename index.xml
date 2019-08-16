@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Aug 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 15:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,21 +35,36 @@
     </item>
     
     <item>
-      <title>HTML入门笔记1</title>
-      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
-      <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
+      <title>HTML入门笔记</title>
+      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 16 Aug 2019 15:51:31 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
       
         <description>
 
 &lt;h1 id=&#34;html入门笔记1&#34;&gt;HTML入门笔记1&lt;/h1&gt;
 
-&lt;p&gt;今天是19年8月6号，这周学习了HTML入门，这是本周学到的知识总结，写博客记录下来&lt;/p&gt;
+&lt;h2 id=&#34;今天是19年8月16号-这周学习了html入门&#34;&gt;今天是19年8月16号,这周学习了HTML入门&lt;/h2&gt;
 
-&lt;p&gt;HTML是Tim Berners-Lee（李爵士）发明的&lt;/p&gt;
+&lt;h3 id=&#34;写博客记录下来&#34;&gt;写博客记录下来&lt;/h3&gt;
 
-&lt;p&gt;HTML起手先输入！&lt;/p&gt;
+&lt;p&gt;HTML是Tim Berners-Lee发明的&lt;/p&gt;
+
+&lt;p&gt;HTML起手先输入 ！
+&lt;code&gt;
+&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;UTF-8&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
+&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;HTML常用的章节标签有&lt;/p&gt;
 
@@ -123,6 +138,113 @@
     </item>
     
     <item>
+      <title>HTML入门笔记</title>
+      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Fri, 16 Aug 2019 15:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;html入门笔记1&#34;&gt;HTML入门笔记1&lt;/h1&gt;
+
+&lt;h2 id=&#34;今天是19年8月16号-这周学习了html入门&#34;&gt;今天是19年8月16号,这周学习了HTML入门&lt;/h2&gt;
+
+&lt;h3 id=&#34;写博客记录下来&#34;&gt;写博客记录下来&lt;/h3&gt;
+
+&lt;p&gt;HTML是Tim Berners-Lee发明的&lt;/p&gt;
+
+&lt;p&gt;HTML起手先输入 ！
+&lt;code&gt;
+&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;UTF-8&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
+&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML常用的章节标签有&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标题  h1-h6&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;章节  section&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;文章  article&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;段落  p&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;头部  header&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;脚部  footer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;主要内容 main&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;旁支内容 aside&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;划分  div&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HTML全局属性有&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;class 用来给你的标签加样式&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;contenteditable 可以使任意元素被编辑&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hidden 让一个东西看不见&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;id 赋予一个元素值（认为id具有唯一性，html不报错id，css里可以直接调用id，不到万不得已不使用）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;style 每一个元素可以写style属性&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;tabindex 用tab切换元素的顺序，0最后访问，-1别访问，123按顺序访问&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;title    鼠标放上去显示完整内容&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HTML常用的内容标签有&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ol+li 有顺序的列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ul+li 无顺序的列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dl+dt+dd 描述列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;pre HTML格式默认只保留一个空格，回车，如果需要保留多个空格，用pre包起来&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;code code让里面的内容等宽，为了方便填写代码&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hr 分格线&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;br 中断现在这行，进行换行&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a  a标签，超链接一个链接，可以直接访问&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;em 强调 强调语气&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;strong 重要，本身就重要&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;quote 引用&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;blockquote 换行引用，结果进行换行&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;希望学习更多的前端开发知识，早点学会前端&lt;/p&gt;
+
+&lt;p&gt;help&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>开博大吉</title>
       <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
@@ -173,22 +295,6 @@
 &lt;li&gt;&lt;p&gt;每次写完新的博客：1，git add .  2,gc  3,hugo  4,cd public/   5,
 git push，6，hugo server 运行hugo&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>第二篇博客</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 12 Aug 2019 10:51:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;又见面了&#34;&gt;又见面了&lt;/h1&gt;
-
-&lt;p&gt;希望这次创建博客，可以一次成功，已经修好了好几次了&lt;/p&gt;
 </description>
       
     </item>
