@@ -35,6 +35,94 @@
     </item>
     
     <item>
+      <title>HTML入门笔记1</title>
+      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;html入门笔记1&#34;&gt;HTML入门笔记1&lt;/h1&gt;
+
+&lt;p&gt;今天是19年8月6号，这周学习了HTML入门，这是本周学到的知识总结，写博客记录下来&lt;/p&gt;
+
+&lt;p&gt;HTML是Tim Berners-Lee（李爵士）发明的&lt;/p&gt;
+
+&lt;p&gt;HTML起手先输入！&lt;/p&gt;
+
+&lt;p&gt;HTML常用的章节标签有&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标题  h1-h6&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;章节  section&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;文章  article&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;段落  p&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;头部  header&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;脚部  footer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;主要内容 main&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;旁支内容 aside&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;划分  div&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HTML全局属性有&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;class 用来给你的标签加样式&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;contenteditable 可以使任意元素被编辑&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hidden 让一个东西看不见&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;id 赋予一个元素值（认为id具有唯一性，html不报错id，css里可以直接调用id，不到万不得已不使用）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;style 每一个元素可以写style属性&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;tabindex 用tab切换元素的顺序，0最后访问，-1别访问，123按顺序访问&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;title    鼠标放上去显示完整内容&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HTML常用的内容标签有&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ol+li 有顺序的列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ul+li 无顺序的列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dl+dt+dd 描述列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;pre HTML格式默认只保留一个空格，回车，如果需要保留多个空格，用pre包起来&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;code code让里面的内容等宽，为了方便填写代码&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hr 分格线&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;br 中断现在这行，进行换行&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a  a标签，超链接一个链接，可以直接访问&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;em 强调 强调语气&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;strong 重要，本身就重要&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;quote 引用&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;blockquote 换行引用，结果进行换行&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>开博大吉</title>
       <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
@@ -61,17 +149,30 @@
 
 &lt;h1 id=&#34;今天学习了创建博客&#34;&gt;今天学习了创建博客&lt;/h1&gt;
 
-&lt;p&gt;使用Hugo，go语言实现的一个博客生成器
-1，在vscode上，使用 Hugo官网代码，按步骤创建博客框架
-2，创建 .gitignore 文件，输入 /public/
-3，打开 cd public
-4，git init  创建.git仓库
-5，git add .  关联这些文件
-6，git commit -v 保存并提交注释
-7，在github上创建仓库，复制仓库地址代码，在vscode上运行
-8，在github上打开settings，打开github pages，查询网址
-9，git push
-10，每次写完新的博客：1，git add .  2,gc  3,hugo  4,cd public/   5,git push，6，hugo server 运行hugo&lt;/p&gt;
+&lt;p&gt;使用Hugo，go语言实现的一个博客生成器&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在vscode上，使用 Hugo官网代码，按步骤创建博客框架&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;创建 .gitignore 文件，输入 /public/&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;打开 cd public&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git init  创建.git仓库&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git add .  关联这些文件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git commit -v 保存并提交注释&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在github上创建仓库，复制仓库地址代码，在vscode上运行&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在github上打开settings，打开github pages，查询网址&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git push&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;每次写完新的博客：1，git add .  2,gc  3,hugo  4,cd public/   5,
+git push，6，hugo server 运行hugo&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>

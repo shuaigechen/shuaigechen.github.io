@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</loc>
+    <lastmod>2019-08-14T10:51:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2019-08-14T10:51:31+08:00</lastmod>
     <priority>0</priority>
