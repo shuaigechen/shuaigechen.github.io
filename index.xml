@@ -221,7 +221,7 @@
 &amp;lt;option value =&amp;quot;2&amp;quot;&amp;gt;星期二&amp;lt;/option&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/select&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;/select)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;textarea    输入多行内容，文本框可以拖动大小
@@ -246,11 +246,11 @@
 &lt;p&gt;重点：input和button的区别&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;input type =&#34;submit&#34; value =&#34;搞起&#34;/&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&amp;lt;input type =&amp;ldquo;submit&amp;rdquo; value =&amp;ldquo;搞起&amp;rdquo;/)&lt;/p&gt;
 
 &lt;p&gt;input里面不能有其它内容&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;button type =&#34;submit&#34;&gt;搞起&lt;/button&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;button type =&#34;submit&#34;&gt;搞起&amp;lt;/button)&lt;/p&gt;
 
 &lt;p&gt;button里可以添加任意内容，图片之类的&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
