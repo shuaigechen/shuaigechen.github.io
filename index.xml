@@ -96,7 +96,7 @@
 
 &lt;li&gt;&lt;p&gt;width     宽&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;默认代码格式:(&lt;img src=&#34;图片&#34; alt =&#34;介绍&#34;&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;默认代码格式:img src=&amp;ldquo;图片&amp;rdquo; alt =&amp;ldquo;介绍&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;事件&lt;/p&gt;
@@ -191,7 +191,7 @@
 
 &lt;li&gt;&lt;p&gt;checkbox    多选框，用同一个name表示一个组的&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;file        上传文件   (&lt;input type=&#34;file&#34; multiple&gt;)可以上传多个文件&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;file        上传文件   input type=&amp;ldquo;file&amp;rdquo; multiple可以上传多个文件&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;submit      提交，刷新（按钮）必须有的属性&lt;/p&gt;&lt;/li&gt;
 
@@ -209,28 +209,27 @@
 &lt;p&gt;其它输入标签&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;select+option   选择标签， 例如:选择星期几&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;select+option   选择标签， 例如:选择星期几&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;select 是真正的值  用户看见的值&lt;/p&gt;
+
+&lt;p&gt;option value =&amp;ldquo;&amp;rdquo;&amp;gt;&amp;ndash;请选择&amp;ndash;option&lt;/p&gt;
+
+&lt;p&gt;option value =&amp;ldquo;1&amp;rdquo;&amp;gt;星期一option&lt;/p&gt;
+
+&lt;p&gt;option value =&amp;ldquo;2&amp;rdquo;&amp;gt;星期二option&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;(&lt;select&gt;  是真正的值  用户看见的值&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;option value =&amp;quot;&amp;quot;&amp;gt;--请选择--&amp;lt;/option&amp;gt;
-
-&amp;lt;option value =&amp;quot;1&amp;quot;&amp;gt;星期一&amp;lt;/option&amp;gt;
-
-&amp;lt;option value =&amp;quot;2&amp;quot;&amp;gt;星期二&amp;lt;/option&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/select&gt;)&lt;/p&gt;
+&lt;p&gt;select&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;textarea    输入多行内容，文本框可以拖动大小
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;(&lt;textarea style = &#34;resize : nome; width = 50%; height = 200px; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;textarea style = &amp;ldquo;resize : nome; width = 50%; height = 200px; &amp;ldquo;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;/textarea&amp;gt;)                     固定宽高，不能拖动文本框，改变大小
+&lt;pre&gt;&lt;code&gt;textarea                    固定宽高，不能拖动文本框，改变大小
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;事件&lt;/p&gt;
@@ -246,11 +245,11 @@
 &lt;p&gt;重点：input和button的区别&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;(&lt;input type =&#34;submit&#34; value =&#34;搞起&#34;/&gt;)&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;input type =&amp;ldquo;submit&amp;rdquo; value =&amp;ldquo;搞起&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;input里面不能有其它内容&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;(&lt;button type =&#34;submit&#34;&gt;搞起&lt;/button&gt;)&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;button type =&amp;ldquo;submit&amp;rdquo;&amp;gt;搞起&amp;lt;/button&lt;/p&gt;
 
 &lt;p&gt;button里可以添加任意内容，图片之类的&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -390,7 +389,7 @@ initial-scale=1.0&#34;&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;大家好&#34;&gt;大家好&lt;/h1&gt;
 
-&lt;p&gt;第一次写博客，希望能写出大家喜欢的文章&lt;/p&gt;
+&lt;p&gt;我的Github博客开通了，用来记录我的学习过程，记笔记，希望把前端学好学会&lt;/p&gt;
 </description>
       
     </item>
@@ -427,8 +426,8 @@ initial-scale=1.0&#34;&gt;&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;git push&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;每次写完新的博客：1，git add .  2,gc  3,hugo  4,cd public/   5,
-git push，6，hugo server 运行hugo&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;每次写完新的博客：1，git add .  2,gc  3,hugo  4,cd public/&lt;br /&gt;
+5,git add .  6,gc   7,git push&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       
