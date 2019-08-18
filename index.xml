@@ -96,7 +96,7 @@
 
 &lt;li&gt;&lt;p&gt;width     宽&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;默认代码格式: &lt;img src=&#34;图片&#34; alt =&#34;介绍&#34;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;默认代码格式:(&lt;img src=&#34;图片&#34; alt =&#34;介绍&#34;&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;事件&lt;/p&gt;
@@ -191,7 +191,7 @@
 
 &lt;li&gt;&lt;p&gt;checkbox    多选框，用同一个name表示一个组的&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;file        上传文件   &lt;input type=&#34;file&#34; multiple&gt;可以上传多个文件&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;file        上传文件   (&lt;input type=&#34;file&#34; multiple&gt;)可以上传多个文件&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;submit      提交，刷新（按钮）必须有的属性&lt;/p&gt;&lt;/li&gt;
 
@@ -212,7 +212,7 @@
 &lt;li&gt;select+option   选择标签， 例如:选择星期几&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;select&gt;  是真正的值  用户看见的值&lt;/p&gt;
+&lt;p&gt;(&lt;select&gt;  是真正的值  用户看见的值&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;option value =&amp;quot;&amp;quot;&amp;gt;--请选择--&amp;lt;/option&amp;gt;
 
@@ -221,16 +221,16 @@
 &amp;lt;option value =&amp;quot;2&amp;quot;&amp;gt;星期二&amp;lt;/option&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;lt;/select)&lt;/p&gt;
+&lt;p&gt;&lt;/select&gt;)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;textarea    输入多行内容，文本框可以拖动大小
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;textarea style = &amp;ldquo;resize : nome; width = 50%; height = 200px; &amp;ldquo;&lt;/p&gt;
+&lt;p&gt;(&lt;textarea style = &#34;resize : nome; width = 50%; height = 200px; &#34;&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;/textarea&amp;gt;                     固定宽高，不能拖动文本框，改变大小
+&lt;pre&gt;&lt;code&gt;&amp;lt;/textarea&amp;gt;)                     固定宽高，不能拖动文本框，改变大小
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;事件&lt;/p&gt;
@@ -246,11 +246,11 @@
 &lt;p&gt;重点：input和button的区别&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&amp;lt;input type =&amp;ldquo;submit&amp;rdquo; value =&amp;ldquo;搞起&amp;rdquo;/)&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;(&lt;input type =&#34;submit&#34; value =&#34;搞起&#34;/&gt;)&lt;/p&gt;
 
 &lt;p&gt;input里面不能有其它内容&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;button type =&#34;submit&#34;&gt;搞起&amp;lt;/button)&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;(&lt;button type =&#34;submit&#34;&gt;搞起&lt;/button&gt;)&lt;/p&gt;
 
 &lt;p&gt;button里可以添加任意内容，图片之类的&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
