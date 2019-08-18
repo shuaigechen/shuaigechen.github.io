@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 16 Aug 2019 15:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2019 12:11:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,228 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>HTML常用标签</title>
+      <link>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Sun, 18 Aug 2019 12:11:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;html常用标签&#34;&gt;HTML常用标签&lt;/h1&gt;
+
+&lt;h2 id=&#34;a标签的用法&#34;&gt;a标签的用法&lt;/h2&gt;
+
+&lt;p&gt;a标签有2个常用的标签属性&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;href，hyper+reference     超链接&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;target，在哪个窗口打开href的超链接&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;a标签href的取值&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;网址：&lt;a href=&#34;https://baidu.com;http//baidu.com;//baidu.com;最后一种权限最高，建议使用这种输入方式&#34;&gt;https://baidu.com;http//baidu.com;//baidu.com;最后一种权限最高，建议使用这种输入方式&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;路径：/a/b/c;a/b/c;  index.html;./index.html&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;伪协议：javascript:代码;(案例：javascript:alert(1);做一个a标签，这个标签什么也不做)；    mailto:邮箱;       tel:电话;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ID:   href =#xxx   跳转到xxx&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;a标签target的取值&lt;/p&gt;
+
+&lt;p&gt;内置名字
+* _blank    在空白（新的）界面打开
+* _top      所有iframe（界面）最顶层打开
+* _parent   副级窗口，在当前链接（界面）的上一层打开
+* _self     在自己的界面打开&lt;/p&gt;
+
+&lt;h2 id=&#34;img标签的用法&#34;&gt;img标签的用法&lt;/h2&gt;
+
+&lt;p&gt;img(图片)标签，作用是发出get请求，展示这个图片&lt;/p&gt;
+
+&lt;p&gt;属性&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;src       source，资料，接图片地址&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;alt       可选填&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;height    高&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;width     宽&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;默认代码格式: &lt;img src=&#34;图片&#34; alt =&#34;介绍&#34;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;事件&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;onload    在加载成功时显示一个介绍，提示用&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;onerror   监听图片是否加载成功，可以做一个补救方案，xxx.src=&amp;ldquo;./404.png&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;响应式&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;max-width：100%; 让图片的宽始终是页面大小，适配手机&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;table标签的用法&#34;&gt;table标签的用法&lt;/h2&gt;
+
+&lt;p&gt;table相关标签&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;table         表格&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;thead         表格的头部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;tbody         表格的中间部分&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;tfoot         表格的尾部&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;tr            table+row，table里的一行&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;th            表头&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;td            table+data，表格里的数据&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;相关样式&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;table-layout ：auto ; 默认值，自动计算行的宽，高，自动对齐&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;       ：fixed; 尽量平均宽和高
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;border-collapse ：collapse;合并表格&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;border-spacing：0;控制border之间的距离为0&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;form标签的用法&#34;&gt;form标签的用法&lt;/h2&gt;
+
+&lt;p&gt;form（表单）标签，作用是发送get或post请求，刷新界面（提交）&lt;/p&gt;
+
+&lt;p&gt;属性&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;action         控制请求哪个界面，里面写什么就访问什么地址&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;autocomplete   是否自动填充，多用于登陆时保存登陆信息&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;method         选择用get或post请求&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;target         把哪个页面变成yyy页面&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;事件&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;onsubmit&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;一个表单必须有（type=“submit”） 这个表单才可以提交&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;input标签的用法&#34;&gt;input标签的用法&lt;/h2&gt;
+
+&lt;p&gt;input标签的作用：让用户输入内容&lt;/p&gt;
+
+&lt;p&gt;属性：类型type：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;name        重点使用，给文本框的属性加一个名字，方便分类文本框&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;text        文本&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;color       颜色&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;password    不展示具体内容，例如输入密码让字符隐藏起来********&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;radio       单选框:o男 o女  加入相同的name才能单选&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;button      定义一个按钮，里面可以加各种文字，照片，链接&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;checkbox    多选框，用同一个name表示一个组的&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;file        上传文件   &lt;input type=&#34;file&#34; multiple&gt;可以上传多个文件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;submit      提交，刷新（按钮）必须有的属性&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hidden      上传看不见的内容，可以让js自动填充一个字符串，id之类的&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;number      可以在文本框里自己选择填写的数据&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;search      可以直接在文本框删除内容&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;tel         电话&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;email       邮件&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其它输入标签&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;select+option   选择标签， 例如:选择星期几&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;select&gt;  是真正的值  用户看见的值&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;option value =&amp;quot;&amp;quot;&amp;gt;--请选择--&amp;lt;/option&amp;gt;
+
+&amp;lt;option value =&amp;quot;1&amp;quot;&amp;gt;星期一&amp;lt;/option&amp;gt;
+
+&amp;lt;option value =&amp;quot;2&amp;quot;&amp;gt;星期二&amp;lt;/option&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/select&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;textarea    输入多行内容，文本框可以拖动大小
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;textarea style = &#34;resize : nome; width = 50%; height = 200px; &#34;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;/textarea&amp;gt;                     固定宽高，不能拖动文本框，改变大小
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;事件&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;onchange      输入改变时触发&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;onfocus       把鼠标放在上面时触发&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;onblur        鼠标从里面移出来时触发&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;重点：input和button的区别&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;input type =&#34;submit&#34; value =&#34;搞起&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;input里面不能有其它内容&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;button type =&#34;submit&#34;&gt;搞起&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;button里可以添加任意内容，图片之类的&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;学习体会&lt;/p&gt;
+
+&lt;p&gt;HTML标签数量很多，但经过分类学习，自己在vscode上进行了操作演练，对这些标签的属性和用法有了大概的了解，只是使用上有点不熟悉，已经做好学习笔记，会经常拿出笔记进行背诵。期待下节课学习制作简单点的网页，把学到的知识使用起来。&lt;/p&gt;
 </description>
       
     </item>
@@ -143,127 +365,6 @@ initial-scale=1.0&#34;&gt;&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;blockquote 换行引用，结果进行换行&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>HTML入门笔记</title>
-      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
-      <pubDate>Fri, 16 Aug 2019 15:51:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;html入门笔记1&#34;&gt;HTML入门笔记1&lt;/h1&gt;
-
-&lt;h2 id=&#34;今天是19年8月16号-这周学习了html入门&#34;&gt;今天是19年8月16号,这周学习了HTML入门&lt;/h2&gt;
-
-&lt;h3 id=&#34;写博客记录下来&#34;&gt;写博客记录下来&lt;/h3&gt;
-
-&lt;p&gt;HTML是Tim Berners-Lee发明的&lt;/p&gt;
-
-&lt;p&gt;HTML起手先输入 ！&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;html lang=&#34;en&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;head&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;meta charset=&#34;UTF-8&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, 
-initial-scale=1.0&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/head&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;body&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/body&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/html&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;HTML常用的章节标签有&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;标题  h1-h6&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;章节  section&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;文章  article&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;段落  p&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;头部  header&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;脚部  footer&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;主要内容 main&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;旁支内容 aside&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;划分  div&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;HTML全局属性有&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;class 用来给你的标签加样式&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;contenteditable 可以使任意元素被编辑&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;hidden 让一个东西看不见&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;id 赋予一个元素值（认为id具有唯一性，html不报错id，css里可以直接调用id，不到万不得已不使用）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;style 每一个元素可以写style属性&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;tabindex 用tab切换元素的顺序，0最后访问，-1别访问，123按顺序访问&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;title    鼠标放上去显示完整内容&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;HTML常用的内容标签有&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ol+li 有顺序的列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ul+li 无顺序的列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;dl+dt+dd 描述列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;pre HTML格式默认只保留一个空格，回车，如果需要保留多个空格，用pre包起来&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;code code让里面的内容等宽，为了方便填写代码&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;hr 分格线&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;br 中断现在这行，进行换行&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;a  a标签，超链接一个链接，可以直接访问&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;em 强调 强调语气&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;strong 重要，本身就重要&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;quote 引用&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;blockquote 换行引用，结果进行换行&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;希望学习更多的前端开发知识，早点学会前端&lt;/p&gt;
-
-&lt;p&gt;help&lt;/p&gt;
 </description>
       
     </item>
