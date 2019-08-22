@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Aug 2019 12:11:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2019 10:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>彩虹</title>
+      <link>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</link>
+      <pubDate>Thu, 22 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</guid>
+      <description>今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp</description>
+    </item>
     
     <item>
       <title>海贼王网站</title>
