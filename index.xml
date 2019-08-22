@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 22 Aug 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 12:11:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,9 +35,51 @@
     </item>
     
     <item>
+      <title>海贼王网站</title>
+      <link>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Wed, 21 Aug 2019 12:11:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;今天尝试用html写了第一个网站&#34;&gt;今天尝试用HTML写了第一个网站&lt;/h1&gt;
+
+&lt;p&gt;网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王&lt;/p&gt;
+
+&lt;h3 id=&#34;网站包含了以下的元素-属性&#34;&gt;网站包含了以下的元素，属性&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;h1 1级标签&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;h2 2级标签&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;section 章节&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;p  段落&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;img 图片&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ul  无序列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ol  有序列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;table 表格&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a  超链接&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;海贼王网站链接：&lt;a href=&#34;http://shuaigechen.site/haizeiwang-demo-1/&#34;&gt;http://shuaigechen.site/haizeiwang-demo-1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;第一次做网站，功能比较少，以后继续努力学习新的知识，加油&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>彩虹</title>
       <link>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</link>
-      <pubDate>Thu, 22 Aug 2019 10:51:31 +0800</pubDate>
+      <pubDate>Tue, 20 Aug 2019 10:51:31 +0800</pubDate>
       
       <guid>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</guid>
       
@@ -142,48 +184,6 @@ body{
 	border-radius: 50%;
 }
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>海贼王网站</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</link>
-      <pubDate>Wed, 21 Aug 2019 12:11:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;今天尝试用html写了第一个网站&#34;&gt;今天尝试用HTML写了第一个网站&lt;/h1&gt;
-
-&lt;p&gt;网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王&lt;/p&gt;
-
-&lt;h3 id=&#34;网站包含了以下的元素-属性&#34;&gt;网站包含了以下的元素，属性&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;h1 1级标签&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;h2 2级标签&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;section 章节&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;p  段落&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;img 图片&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ul  无序列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ol  有序列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;table 表格&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;a  超链接&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;海贼王网站链接：&lt;a href=&#34;http://shuaigechen.site/haizeiwang-demo-1/&#34;&gt;http://shuaigechen.site/haizeiwang-demo-1/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第一次做网站，功能比较少，以后继续努力学习新的知识，加油&lt;/p&gt;
 </description>
       
     </item>

@@ -6,19 +6,10 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 22 Aug 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 12:11:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>彩虹</title>
-      <link>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</link>
-      <pubDate>Thu, 22 Aug 2019 10:51:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</guid>
-      <description>今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp</description>
-    </item>
     
     <item>
       <title>海贼王网站</title>
@@ -27,6 +18,15 @@
       
       <guid>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</guid>
       <description>今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王 网站包含了以下的元素，属性 h1 1级标签 h2 2级标签 section 章</description>
+    </item>
+    
+    <item>
+      <title>彩虹</title>
+      <link>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</link>
+      <pubDate>Tue, 20 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</guid>
+      <description>今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp</description>
     </item>
     
     <item>
