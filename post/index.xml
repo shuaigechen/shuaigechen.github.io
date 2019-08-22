@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 18 Aug 2019 12:11:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 10:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第一个网站</title>
+      <link>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Wed, 21 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</guid>
+      <description>今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王 网站包含了以下的元素，属性 h1 1级标签 h2 2级标签 section 章</description>
+    </item>
     
     <item>
       <title>HTML常用标签</title>
@@ -45,27 +54,6 @@
       
       <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>今天学习了创建博客 使用Hugo，go语言实现的一个博客生成器 在vscode上，使用 Hugo官网代码，按步骤创建博客框架 创建 .gitignore 文件，输入 /public/ 打开</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</guid>
-      <description>海贼王 title: &amp;ldquo;第一个网站&amp;rdquo; date: 2019-08-21T10:51:31+08:00
-draft: false 今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王
-网站包含了以下的元素，属性  h1 1级标签
- h2 2级标签
- section 章节
- p 段落
- img 图片
- ul 无序列表
- ol 有序列表
- table 表格
- a 超链接
-  海贼王网站链接：http://shuaigechen.site/haizeiwang-demo-1/
-第一次做网站，功能比较少，以后继续努力学习新的知识，加油</description>
     </item>
     
   </channel>
