@@ -87,103 +87,15 @@
 
 &lt;h1 id=&#34;今天学了css基础-尝试做了一个彩虹&#34;&gt;今天学了css基础，尝试做了一个彩虹&lt;/h1&gt;
 
-&lt;p&gt;链接：&lt;a href=&#34;http://js.jirengu.com/jifum/1/watch?html,css,output&#34;&gt;http://js.jirengu.com/jifum/1/watch?html,css,output&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;主要使用了css的盒模型知识，文档流与脱离文档流，margin合并，主要使用了border-box，边框盒&lt;/p&gt;
 
-&lt;p&gt;代码如下“&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;border-box width=content(内容宽度）+padding（内边距）+border（边框）&lt;/p&gt;&lt;/li&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;JS Bin&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;div class=&amp;quot;rainbow&amp;quot;&amp;gt;
-  &amp;lt;div&amp;gt;
-    &amp;lt;div&amp;gt;
-      &amp;lt;div&amp;gt;
-        &amp;lt;div&amp;gt;
-          &amp;lt;div&amp;gt;
-            &amp;lt;div&amp;gt;
-              &amp;lt;div&amp;gt;
-                &amp;lt;div&amp;gt;
-									
-				&amp;lt;/div&amp;gt;
-              &amp;lt;/div&amp;gt;
-            &amp;lt;/div&amp;gt;
-          &amp;lt;/div&amp;gt;
-        &amp;lt;/div&amp;gt;
-      &amp;lt;/div&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;overflow: hidden 溢出盒模型的部分隐藏&lt;/p&gt;&lt;/li&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;*{box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-body{
-		background: #FFFFFF;
-}
-.rainbow{
-	height: 200px;
-	overflow: hidden;
-}
-.rainbow div{
-	overflow: hidden;
-}
-.rainbow &amp;gt; div{
-	width:400px;
-	height:400px;
-	background: #EE0000;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div{
-	height:380px;
-	margin:10px;
-	background: #FF4500;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div&amp;gt; div{
-	height:360px;
-	margin:10px;
-	background: #EEEE00;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div{
-	height: 340px;
-	margin: 10px;
-	background: #7FFF00;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div{
-	height: 320px;
-	margin: 10px;
-	background: #00FFFF;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div{
-	height: 300px;
-	margin: 10px;
-	background: #0000FF;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div{
-	height: 280px;
-	margin: 10px;
-	background: #EE00EE;
-	border-radius: 50%;
-}
-.rainbow &amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div&amp;gt; div{
-	height: 260px;
-	margin: 10px;
-	background: #FFFFFF;
-	border-radius: 50%;
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;代码链接：&lt;a href=&#34;http://js.jirengu.com/jifum/1/watch?html,css,output&#34;&gt;http://js.jirengu.com/jifum/1/watch?html,css,output&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
@@ -533,25 +445,9 @@ initial-scale=1.0&#34;&gt;&lt;/p&gt;
     </item>
     
     <item>
-      <title>开博大吉</title>
-      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
-      <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;大家好&#34;&gt;大家好&lt;/h1&gt;
-
-&lt;p&gt;我的Github博客开通了，用来记录我的学习过程，记笔记，希望把前端学好学会&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
       <title>如何创建博客</title>
       <link>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 12 Aug 2019 10:51:31 +0800</pubDate>
+      <pubDate>Thu, 15 Aug 2019 10:51:31 +0800</pubDate>
       
       <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       
@@ -583,6 +479,22 @@ initial-scale=1.0&#34;&gt;&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;每次写完新的博客：1，git add .  2,gc  3,hugo  4,cd public/&lt;br /&gt;
 5,git add .  6,gc   7,git push&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>开博大吉</title>
+      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <pubDate>Wed, 14 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;大家好&#34;&gt;大家好&lt;/h1&gt;
+
+&lt;p&gt;我的Github博客开通了，用来记录我的学习过程，记笔记，希望把前端学好学会&lt;/p&gt;
 </description>
       
     </item>

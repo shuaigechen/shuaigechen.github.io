@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="FengFeng" />
-  <meta name="description" content="今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp" />
+  <meta name="description" content="今天学了css基础，尝试做了一个彩虹 主要使用了css的盒模型知识，文档流与脱离文档流，margin合并，主要使用了border-box，边框" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -58,25 +58,25 @@
 
 
 <meta property="og:title" content="彩虹" />
-<meta property="og:description" content="今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp" />
+<meta property="og:description" content="今天学了css基础，尝试做了一个彩虹 主要使用了css的盒模型知识，文档流与脱离文档流，margin合并，主要使用了border-box，边框" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/%E5%BD%A9%E8%99%B9/" />
 <meta property="article:published_time" content="2019-08-20T10:51:31+08:00" />
 <meta property="article:modified_time" content="2019-08-20T10:51:31+08:00" />
 <meta itemprop="name" content="彩虹">
-<meta itemprop="description" content="今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp">
+<meta itemprop="description" content="今天学了css基础，尝试做了一个彩虹 主要使用了css的盒模型知识，文档流与脱离文档流，margin合并，主要使用了border-box，边框">
 
 
 <meta itemprop="datePublished" content="2019-08-20T10:51:31&#43;08:00" />
 <meta itemprop="dateModified" content="2019-08-20T10:51:31&#43;08:00" />
-<meta itemprop="wordCount" content="248">
+<meta itemprop="wordCount" content="183">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="彩虹"/>
-<meta name="twitter:description" content="今天学了css基础，尝试做了一个彩虹 链接：http://js.jirengu.com/jifum/1/watch?html,css,outp"/>
+<meta name="twitter:description" content="今天学了css基础，尝试做了一个彩虹 主要使用了css的盒模型知识，文档流与脱离文档流，margin合并，主要使用了border-box，边框"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -374,103 +374,15 @@
 
 <h1 id="今天学了css基础-尝试做了一个彩虹">今天学了css基础，尝试做了一个彩虹</h1>
 
-<p>链接：<a href="http://js.jirengu.com/jifum/1/watch?html,css,output">http://js.jirengu.com/jifum/1/watch?html,css,output</a></p>
+<p>主要使用了css的盒模型知识，文档流与脱离文档流，margin合并，主要使用了border-box，边框盒</p>
 
-<p>代码如下“</p>
+<ul>
+<li><p>border-box width=content(内容宽度）+padding（内边距）+border（边框）</p></li>
 
-<pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;JS Bin&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;rainbow&quot;&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;div&gt;
-        &lt;div&gt;
-          &lt;div&gt;
-            &lt;div&gt;
-              &lt;div&gt;
-                &lt;div&gt;
-									
-				&lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
+<li><p>overflow: hidden 溢出盒模型的部分隐藏</p></li>
 
-<pre><code class="language-css">*{box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-body{
-		background: #FFFFFF;
-}
-.rainbow{
-	height: 200px;
-	overflow: hidden;
-}
-.rainbow div{
-	overflow: hidden;
-}
-.rainbow &gt; div{
-	width:400px;
-	height:400px;
-	background: #EE0000;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div{
-	height:380px;
-	margin:10px;
-	background: #FF4500;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div&gt; div{
-	height:360px;
-	margin:10px;
-	background: #EEEE00;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div&gt; div&gt; div{
-	height: 340px;
-	margin: 10px;
-	background: #7FFF00;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div&gt; div&gt; div&gt; div{
-	height: 320px;
-	margin: 10px;
-	background: #00FFFF;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div&gt; div&gt; div&gt; div&gt; div{
-	height: 300px;
-	margin: 10px;
-	background: #0000FF;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div&gt; div&gt; div&gt; div&gt; div&gt; div{
-	height: 280px;
-	margin: 10px;
-	background: #EE00EE;
-	border-radius: 50%;
-}
-.rainbow &gt; div&gt; div&gt; div&gt; div&gt; div&gt; div&gt; div&gt; div{
-	height: 260px;
-	margin: 10px;
-	background: #FFFFFF;
-	border-radius: 50%;
-}
-</code></pre>
+<li><p>代码链接：<a href="http://js.jirengu.com/jifum/1/watch?html,css,output">http://js.jirengu.com/jifum/1/watch?html,css,output</a></p></li>
+</ul>
 
     </div>
 
