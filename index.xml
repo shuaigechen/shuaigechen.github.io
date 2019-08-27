@@ -141,6 +141,74 @@
     </item>
     
     <item>
+      <title>Loading图标</title>
+      <link>http://localhost:1313/post/loading%E5%9B%BE%E6%A0%87/</link>
+      <pubDate>Tue, 20 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/loading%E5%9B%BE%E6%A0%87/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;使用css制作loading载入动画&#34;&gt;使用CSS制作Loading载入动画&lt;/h1&gt;
+
+&lt;p&gt;今天找了一个小demo，制作了loading载入动画&lt;/p&gt;
+
+&lt;p&gt;已经学完CSS语法以及属性，使用网上的项目进行练习&lt;/p&gt;
+
+&lt;p&gt;有一些属性已经学过，但第一次看代码时还是会忘记，还是要多练习&lt;/p&gt;
+
+&lt;p&gt;把这个demo遇见的不懂的记录下来，方便以后回忆复习&lt;/p&gt;
+
+&lt;h4 id=&#34;用到的css属性&#34;&gt;用到的css属性&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;background：radial-gradient 创建一个&lt;image&gt;，用来展示由原点（渐变中心）辐射开的颜色&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;渐变。这个方法得到的是一个CSS&lt;gradient&gt;数据类型的对象。意思是创建一个背景颜色是渐变色的背景&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;position: absolute; 觉得定位，基于他的最近的祖先元素进行定位&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;transform   属性允许你旋转，缩放，倾斜或平移给定元素。这是通过修改CSS视觉格式化模型的坐&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;标空间来实现的。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;border-radius：50%； radius半径，这条代码让一个正方形变成圆&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;transform-origin：50%；更改一个元素变形的原点&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;animation: circle .5s alternate infinite ease;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;animation用来指定一组或多组动画&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;@keyframes规则是通过在动画序列中定义关键帧的样式来控制CSS动画序列中的步骤&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;animtion-delay：.2s   动画延迟，意思是从哪个时间开始进行动画，定义动画什么时候开始&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;left：auto； left的值是auto，对于绝对定位元素，会忽略left的值，以right为主去定位&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果right的值也是auto，那么元素不会偏离&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;filter：blur（1px）（模糊1px）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;将模糊或颜色便宜等图形效果应用于元素上&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;opacity：7   不透明度是7&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;letter-spacing：12px  文字间距 12px&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些就是写这个demo遇见不懂的知识，一定要多练习，多做项目，加油！&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>彩虹</title>
       <link>http://localhost:1313/post/%E5%BD%A9%E8%99%B9/</link>
       <pubDate>Tue, 20 Aug 2019 10:51:31 +0800</pubDate>
