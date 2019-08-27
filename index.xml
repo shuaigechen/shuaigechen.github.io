@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Aug 2019 12:11:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,70 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>浅析URL</title>
+      <link>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</link>
+      <pubDate>Tue, 27 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;今天学习了url-把学到的知识记录下来&#34;&gt;今天学习了URL，把学到的知识记录下来&lt;/h1&gt;
+
+&lt;h3 id=&#34;url-uniform-resource-locator-统一资源定位服务&#34;&gt;URL（Uniform Resource Locator）统一资源定位服务&lt;/h3&gt;
+
+&lt;p&gt;一个整的URL由以下几部分组成&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.baidu.com/s?wd=css&amp;amp;crsv-spt=1#盒模型&#34;&gt;http://www.baidu.com/s?wd=css&amp;amp;crsv-spt=1#盒模型&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;协议    域名或IP      路径     查询参数     锚点&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;协议规定了2件事&#34;&gt;协议规定了2件事&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;如何定位一台设备&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;如何封装数据报文，便以跟其他设备交流&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ip分为内网和外网&#34;&gt;IP分为内网和外网&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;IP的作用是定位设备&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;路径可以请求不同的页面&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;锚点可以请求同一页面不同的位置&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;dns是域名系统-domain-name-system&#34;&gt;DNS是域名系统（Domain Name System）&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作用是对应域名和IP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;使用 nslookup baidu.com  可以查询百度的IP&lt;/p&gt;
+
+&lt;p&gt;使用 ping baidu.com    查询百度IP&lt;/p&gt;
+
+&lt;h4 id=&#34;域名是对ip的别称&#34;&gt;域名是对IP的别称&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;com          顶级域名&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;baidu.com    二级域名，有可能二级域名和三级不是一个公司的，因为穷&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;www.baidu.com   三级域名，和二级是父子关系&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这是我对URL一个简单的总结，有新的知识会随时添加&lt;/p&gt;
 </description>
       
     </item>
