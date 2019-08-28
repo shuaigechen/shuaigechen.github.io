@@ -54,9 +54,9 @@
 &lt;p&gt;下面总结的不懂的知识，记录下来方便复习&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;html&lt;details&gt; 元素可以创建一个挂件，仅在切换成展开状态时，它才会显示内涵信息，创建下拉框&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;html  details 元素可以创建一个挂件，仅在切换成展开状态时，它才会显示内涵信息，创建下拉框&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;summary&gt; 可以为该元素提供概要或标签（用作一个details元素的内容摘要，标题，案例）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;summary 可以为该元素提供概要或标签（用作一个details元素的内容摘要，标题，案例）&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;border：none   没有边框&lt;/p&gt;&lt;/li&gt;
 
@@ -80,6 +80,10 @@
 &lt;/ul&gt;
 
 &lt;p&gt;这是遇到的不懂的地方，一定要多看，多练习&lt;/p&gt;
+
+&lt;p&gt;效果：&lt;a href=&#34;http://shuaigechen.site/xialakuang-demo-1/&#34;&gt;http://shuaigechen.site/xialakuang-demo-1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;代码：&lt;a href=&#34;https://github.com/shuaigechen/xialakuang-demo-1&#34;&gt;https://github.com/shuaigechen/xialakuang-demo-1&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
