@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 Aug 2019 16:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,56 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>下拉框</title>
+      <link>http://localhost:1313/post/%E4%B8%8B%E6%8B%89%E6%A1%86/</link>
+      <pubDate>Wed, 28 Aug 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E4%B8%8B%E6%8B%89%E6%A1%86/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;下拉框&#34;&gt;下拉框&lt;/h1&gt;
+
+&lt;p&gt;今天使用CSS，联系制作了下拉框，调试了很久才成功&lt;/p&gt;
+
+&lt;p&gt;选择器的标签写错了，基础中的基础错误！！&lt;/p&gt;
+
+&lt;p&gt;一定要细心！！！&lt;/p&gt;
+
+&lt;p&gt;下面总结的不懂的知识，记录下来方便复习&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;html&lt;details&gt; 元素可以创建一个挂件，仅在切换成展开状态时，它才会显示内涵信息，创建下拉框&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;summary&gt; 可以为该元素提供概要或标签（用作一个details元素的内容摘要，标题，案例）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;border：none   没有边框&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;cursor 定义鼠标指针悬浮在元素上的样子&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a.button：{filter : brightness:(75%)}&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;伪类元素     亮度75%&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;匹配被用户激活的元素，当用户进行鼠标点击交互时，让浏览器给出反馈&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;list-style-type  列表样式类型&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;:focus   表示获得焦点的元素（如表单输入）  当用户点击/触碰元素或通过tab键 选择它时被触发&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;outline  属性用来设置一个或多个单独的轮廓属性，  outline：none   没有轮廓&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;transparent   透明度&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;display 指定元素的显示类型，用指定元素怎么样生成盒模型&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这是遇到的不懂的地方，一定要多看，多练习&lt;/p&gt;
 </description>
       
     </item>
