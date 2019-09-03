@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Aug 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,74 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>跳动的心脏</title>
+      <link>http://localhost:1313/post/%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83%E8%84%8F/</link>
+      <pubDate>Tue, 03 Sep 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83%E8%84%8F/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;今天使用css-练习了一个跳动的心脏-加载界面&#34;&gt;今天使用css， 练习了一个跳动的心脏 加载界面&lt;/h1&gt;
+
+&lt;p&gt;主要使用三个span元素，通过定位，让他们排列成三角行，然后定义动画，同时变大，就&lt;/p&gt;
+
+&lt;p&gt;像跳动的心脏一样&lt;/p&gt;
+
+&lt;p&gt;下面是遇到不懂的知识点&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;svg   可缩放矢量图形,是一种用于描述基于二维的矢量图形的，基于 XML 的标记&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;语言。本质上，SVG 相对于图像，就好比 HTML 相对于文本。&lt;/p&gt;
+
+&lt;p&gt;SVG 图像及其相关行为被定义于 XML 文本文件之中，这意味着可以对它们进行搜索、&lt;/p&gt;
+
+&lt;p&gt;索引、编写脚本以及压缩。此外，这也意味着可以使用任何文本编辑器和绘图软件来创建和&lt;/p&gt;
+
+&lt;p&gt;编辑它们。（需要系统的学习一下这部分）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;svg xmlns=&amp;ldquo;&lt;a href=&#34;http://www.w3.org/2000/svg&amp;quot;&#34;&gt;http://www.w3.org/2000/svg&amp;quot;&lt;/a&gt;  定义了这个命名空间&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;什么是命名空间？&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;也称命名空间、名称空间等，它表示着一个标识符（identifier）的可见范围。 一个标&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;识符可在多个命名空间中定义，它在不同命名空间中的含义是互不相干的。 这样，在一个&lt;/p&gt;
+
+&lt;p&gt;新的命名空间中可定义任何标识符，它们不会与任何已有的标识符发生冲突，因为已有的&lt;/p&gt;
+
+&lt;p&gt;定义都处于其他命名空间中。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;feGaussianBlur   该滤镜对输入图像进行高斯模糊&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;stdDeviation       中指定的数量定义了钟形&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;transform-origin： 50%；    改变元素的原点&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;@keyframes    通过在动画序列中定义关键帧的样式来 控制css动画序列的中间步骤&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;定义动画效果，例如 0%时的动画效果，40%时的动画效果&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;opacity      不透明度&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;background-color：transparent；    背景色是透明的&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;letter-spacing    文字间距&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;代码链接：&lt;a href=&#34;http://js.jirengu.com/cafig/3/edit?html,css,output&#34;&gt;http://js.jirengu.com/cafig/3/edit?html,css,output&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;效果展示：&lt;a href=&#34;http://shuaigechen.site/xinzang-demo-1/&#34;&gt;http://shuaigechen.site/xinzang-demo-1/&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -685,77 +753,6 @@ initial-scale=1.0&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;大家好&#34;&gt;大家好&lt;/h1&gt;
 
 &lt;p&gt;我的Github博客开通了，用来记录我的学习过程，记笔记，希望把前端学好学会&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>跳动的心脏</title>
-      <link>http://localhost:1313/post/%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83%E8%84%8F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E8%B7%B3%E5%8A%A8%E7%9A%84%E5%BF%83%E8%84%8F/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;今天使用css-练习了一个跳动的心脏-加载界面&#34;&gt;今天使用css， 练习了一个跳动的心脏 加载界面&lt;/h1&gt;
-
-&lt;p&gt;主要使用三个 span 元素，通过定位，让他们排列成三角行，然后定义动画，同时变大，就&lt;/p&gt;
-
-&lt;p&gt;像跳动的心脏一样&lt;/p&gt;
-
-&lt;p&gt;下面是遇到不懂的知识点&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;svg   可缩放矢量图形     是一种用于描述基于二维的矢量图形的，基于 XML 的标记&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;语言。本质上，SVG 相对于图像，就好比 HTML 相对于文本。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SVG 图像及其相关行为被定义于 XML 文本文件之中，这意味着可以对它们进行搜索、索
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;引、编写脚本以及压缩。此外，这也意味着可以使用任何文本编辑器和绘图软件来创建和编&lt;/p&gt;
-
-&lt;p&gt;辑它们。（需要系统的学习一下这部分）&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;     定义了这个命名空间&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;什么是命名空间？&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;也称命名空间、名称空间等，它表示着一个标识符（identifier）的可见范围。 一个标&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;识符可在多个命名空间中定义，它在不同命名空间中的含义是互不相干的。 这样，在一个&lt;/p&gt;
-
-&lt;p&gt;新的命名空间中可定义任何标识符，它们不会与任何已有的标识符发生冲突，因为已有的&lt;/p&gt;
-
-&lt;p&gt;定义都处于其他命名空间中。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;feGaussianBlur   该滤镜对输入图像进行高斯模糊&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;stdDeviation       中指定的数量定义了钟形&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;transform-origin： 50%；    改变元素的原点&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;@keyframes    通过在动画序列中定义关键帧的样式来 控制css动画序列的中间步骤&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;定义动画效果，例如 0%时的动画效果，40%时的动画效果&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;opacity      不透明度&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;background-color：transparent；    背景色是透明的&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;letter-spacing    文字间距&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;代码链接：&lt;a href=&#34;http://js.jirengu.com/cafig/3/edit?html,css,output&#34;&gt;http://js.jirengu.com/cafig/3/edit?html,css,output&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;效果展示：&lt;a href=&#34;http://shuaigechen.site/xinzang-demo-1/&#34;&gt;http://shuaigechen.site/xinzang-demo-1/&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
