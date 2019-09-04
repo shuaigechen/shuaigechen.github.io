@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 03 Sep 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,109 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>JavaScript 的诞生</title>
+      <link>http://localhost:1313/post/javascript-%E7%9A%84%E8%AF%9E%E7%94%9F/</link>
+      <pubDate>Wed, 04 Sep 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/javascript-%E7%9A%84%E8%AF%9E%E7%94%9F/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;javascript-的诞生&#34;&gt;JavaScript 的诞生&lt;/h1&gt;
+
+&lt;p&gt;1994年，网景公司（Netscape）发布了Navigator浏览器0.9版。这是历史上第一个比较&lt;/p&gt;
+
+&lt;p&gt;成熟的网络浏览器，轰动一时。但是，这个版本的浏览器只能用来浏览，不具备与访问者互&lt;/p&gt;
+
+&lt;p&gt;动的能力。网景公司急需一种网页脚本语言，使得浏览器可以与网页互动。&lt;/p&gt;
+
+&lt;h3 id=&#34;网页脚本语言到底是什么语言&#34;&gt;网页脚本语言到底是什么语言？&lt;/h3&gt;
+
+&lt;p&gt;网景公司当时有两个选择：一个是采用现有的语言，比如Perl、Python、Tcl、Scheme
+等等，允许它们直接嵌入网页；另一个是发明一种全新的语言。&lt;/p&gt;
+
+&lt;p&gt;1995年4月，网景公司录用了34岁的系统程序员Brendan Eich。&lt;/p&gt;
+
+&lt;p&gt;Brendan Eich的主要方向和兴趣是函数式编程，网景公司招聘他的目的，是研究将
+Scheme语言作为网页脚本语言的可能性。&lt;/p&gt;
+
+&lt;p&gt;但是因为1995年Sun公司将Oak语言改名为Java，并大肆宣传，许诺这种语言可以&amp;rdquo;一次编
+写，到处运行&amp;rdquo;，它看上去很可能成为未来的主宰。&lt;/p&gt;
+
+&lt;p&gt;所以在一个月之后，1995年5月，网景公司做出决策，未来的网页脚本语言必须&amp;rdquo;看上去与
+Java足够相似&amp;rdquo;，但是比Java简单，使得非专业的网页作者也能很快上手。这个决策实际上
+将Perl、Python、Tcl、Scheme等非面向对象编程的语言都排除在外了。&lt;/p&gt;
+
+&lt;p&gt;于是Brendan Eich被指定为这种&amp;rdquo;简化版Java语言&amp;rdquo;的设计师。&lt;/p&gt;
+
+&lt;p&gt;但是，他对Java一点兴趣也没有。为了应付公司安排的任务，他只用10天时间就把Javascript设计出来了。&lt;/p&gt;
+
+&lt;p&gt;由于设计时间太短，语言的一些细节考虑得不够严谨，导致后来很长一段时间，Javascript写出来的程序混乱不堪。&lt;/p&gt;
+
+&lt;h3 id=&#34;总的来说-他的设计思路是这样的&#34;&gt;总的来说，他的设计思路是这样的：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;借鉴C语言的基本语法；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;借鉴Java语言的数据类型和内存管理；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;借鉴Scheme语言，将函数提升到&amp;rdquo;第一等公民&amp;rdquo;（first class）的地位；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;借鉴Self语言，使用基于原型（prototype）的继承机制。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以，Javascript语言实际上是两种语言风格的混合产物&amp;mdash;-（简化的）函数式编程+（简化的）面向对象编程。&lt;/p&gt;
+
+&lt;h3 id=&#34;那么到底什么是javascript呢&#34;&gt;那么到底什么是JavaScript呢？&lt;/h3&gt;
+
+&lt;p&gt;JavaScript（通常缩写为JS）是一种高级的、解释型的编程语言。&lt;/p&gt;
+
+&lt;p&gt;JavaScript是一门基于原型、函数先行的语言，是一门多范式的语言，它支持面向对象编程，命令式编程，以及函数式编程。它提供语法来操控文本、数组、日期以及正则表达式等，不支持I/O，比如网络、存储和图形等，但这些都可以由它的宿主环境提供支持。&lt;/p&gt;
+
+&lt;p&gt;虽然JavaScript与Java这门语言不管是在名字上，或是在语法上都有很多相似性，但这两门编程语言从设计之初就有很大的不同，JavaScript的语言设计主要受到了Self（一种基于原型的编程语言）和Scheme（一门函数式编程语言）的影响。在语法结构上它又与C语言有很多相似（例如if条件语句、while循环、switch语句、do-while循环等）。&lt;/p&gt;
+
+&lt;p&gt;在客户端，JavaScript在传统意义上被实现为一种解释语言，但在最近，它已经可以被即时编译（JIT）执行。随着最新的HTML5和CSS3语言标准的推行它还可用于游戏、桌面和移动应用程序的开发和在服务器端网络环境运行，如Node.js。&lt;/p&gt;
+
+&lt;h3 id=&#34;一般来说-完整的javascript包括以下几个部分&#34;&gt;一般来说，完整的JavaScript包括以下几个部分：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ECMAScript，描述了该语言的语法和基本对象&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ECMAScript，描述了该语言的语法和基本对象&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;浏览器对象模型（BOM），描述与浏览器进行交互的方法和接口&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript的基本特点如下&#34;&gt;JavaScript的基本特点如下：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;是一种解释性脚本语言（代码不进行预编译）。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;主要用来向HTML页面添加交互行为。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可以直接嵌入HTML页面，但写成单独的js文件有利于结构和行为的分离。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;javascript常用来完成以下任务&#34;&gt;JavaScript常用来完成以下任务：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;嵌入动态文本于HTML页面&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;对浏览器事件作出响应&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;读写HTML元素&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在数据被提交到服务器之前验证数据&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;检测访客的浏览器信息&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;控制cookies，包括创建和修改等&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
