@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>海贼王网站 - 峰峰的博客</title>
+  <title>CSS知识总结 - 峰峰的博客</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="FengFeng" />
-  <meta name="description" content="今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王 网站包含了以下的元素，属性 h1 1级标签 h2 2级标签 section 章" />
+  <meta name="description" content="CSS知识总结 浏览器的渲染过程 根据HTML构建HTML树（DOM） 根据CSS构建CSS树 （CSSOM） 将两棵树合并成一颗渲染树（rendtr" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.56.3" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/" />
+<link rel="canonical" href="http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" />
 
 
 
@@ -57,26 +57,26 @@
 
 
 
-<meta property="og:title" content="海贼王网站" />
-<meta property="og:description" content="今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王 网站包含了以下的元素，属性 h1 1级标签 h2 2级标签 section 章" />
+<meta property="og:title" content="CSS知识总结" />
+<meta property="og:description" content="CSS知识总结 浏览器的渲染过程 根据HTML构建HTML树（DOM） 根据CSS构建CSS树 （CSSOM） 将两棵树合并成一颗渲染树（rendtr" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/" />
+<meta property="og:url" content="http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" />
 <meta property="article:published_time" content="2019-08-21T12:11:31+08:00" />
 <meta property="article:modified_time" content="2019-08-21T12:11:31+08:00" />
-<meta itemprop="name" content="海贼王网站">
-<meta itemprop="description" content="今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王 网站包含了以下的元素，属性 h1 1级标签 h2 2级标签 section 章">
+<meta itemprop="name" content="CSS知识总结">
+<meta itemprop="description" content="CSS知识总结 浏览器的渲染过程 根据HTML构建HTML树（DOM） 根据CSS构建CSS树 （CSSOM） 将两棵树合并成一颗渲染树（rendtr">
 
 
 <meta itemprop="datePublished" content="2019-08-21T12:11:31&#43;08:00" />
 <meta itemprop="dateModified" content="2019-08-21T12:11:31&#43;08:00" />
-<meta itemprop="wordCount" content="172">
+<meta itemprop="wordCount" content="629">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="海贼王网站"/>
-<meta name="twitter:description" content="今天尝试用HTML写了第一个网站 网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王 网站包含了以下的元素，属性 h1 1级标签 h2 2级标签 section 章"/>
+<meta name="twitter:title" content="CSS知识总结"/>
+<meta name="twitter:description" content="CSS知识总结 浏览器的渲染过程 根据HTML构建HTML树（DOM） 根据CSS构建CSS树 （CSSOM） 将两棵树合并成一颗渲染树（rendtr"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -338,7 +338,7 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">海贼王网站</h1>
+      <h1 class="post-title">CSS知识总结</h1>
       
       <div class="post-meta">
         <time datetime="2019-08-21" class="post-time">
@@ -362,11 +362,13 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#今天尝试用html写了第一个网站">今天尝试用HTML写了第一个网站</a>
+<li><a href="#css知识总结">CSS知识总结</a>
 <ul>
 <li>
 <ul>
-<li><a href="#网站包含了以下的元素-属性">网站包含了以下的元素，属性</a></li>
+<li><a href="#浏览器的渲染过程">浏览器的渲染过程</a></li>
+<li><a href="#css动画的两种做法">CSS动画的两种做法</a></li>
+<li><a href="#学习css的重点">学习css的重点</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -378,35 +380,53 @@
     <div class="post-content">
       
 
-<h1 id="今天尝试用html写了第一个网站">今天尝试用HTML写了第一个网站</h1>
+<h1 id="css知识总结">CSS知识总结</h1>
 
-<p>网站简单介绍了海贼王，可以直接链接到视频网站，去观看海贼王</p>
-
-<h3 id="网站包含了以下的元素-属性">网站包含了以下的元素，属性</h3>
+<h3 id="浏览器的渲染过程">浏览器的渲染过程</h3>
 
 <ul>
-<li><p>h1 1级标签</p></li>
+<li><p>根据HTML构建HTML树（DOM）</p></li>
 
-<li><p>h2 2级标签</p></li>
+<li><p>根据CSS构建CSS树 （CSSOM）</p></li>
 
-<li><p>section 章节</p></li>
+<li><p>将两棵树合并成一颗渲染树（rendtree）</p></li>
 
-<li><p>p  段落</p></li>
+<li><p>Layout布局（定位）（文档流，盒模型，计算大小和位置）</p></li>
 
-<li><p>img 图片</p></li>
+<li><p>panint绘制（把边框颜色，文字颜色，阴影等画出来）</p></li>
 
-<li><p>ul  无序列表</p></li>
-
-<li><p>ol  有序列表</p></li>
-
-<li><p>table 表格</p></li>
-
-<li><p>a  超链接</p></li>
+<li><p>composiet合成（根据层叠关系展示画面）（把各层之间拍平，然后渲染到界面上）</p></li>
 </ul>
 
-<p>海贼王网站链接：<a href="http://shuaigechen.site/haizeiwang-demo-1/">http://shuaigechen.site/haizeiwang-demo-1/</a></p>
+<h3 id="css动画的两种做法">CSS动画的两种做法</h3>
 
-<p>第一次做网站，功能比较少，以后继续努力学习新的知识，加油</p>
+<p>第一种，使用transform，transition 和 :hover</p>
+
+<ul>
+<li><p>重点是使用:hover，创建一个鼠标悬浮事件，让动画效果随着鼠标悬浮产生</p></li>
+
+<li><p>使用transform（变形），4个属性：位移，translate、缩放，scale、旋转，rotate、倾斜，slcew</p></li>
+
+<li><p>使用transition（过渡），添加中间帧，告诉开头，中间，结尾，怎么样</p></li>
+
+<li><p>示例代码：<a href="http://js.jirengu.com/lubag/1/edit?html,css,output">http://js.jirengu.com/lubag/1/edit?html,css,output</a></p></li>
+</ul>
+
+<p>第二种，animatioin，@keyframes（关键帧）</p>
+
+<ul>
+<li><p>重点是使用@keyframes（关键帧），定义几个节点，定义动画在节点时的样子</p></li>
+
+<li><p>缩写语法animation时长，过渡方式，延迟，次数，方向，填充模式，是否暂停，动画名</p></li>
+
+<li><p>示例代码：<a href="http://js.jirengu.com/yomay/1/edit?html,css,output">http://js.jirengu.com/yomay/1/edit?html,css,output</a></p></li>
+</ul>
+
+<h3 id="学习css的重点">学习css的重点</h3>
+
+<p>要有想象力！！！基本属性是固定的，如何用属性组合成不同样式才是最重要的</p>
+
+<p>要学会把图形分解成自己能理解的样子！ 多多练习</p>
 
     </div>
 
@@ -441,7 +461,7 @@
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/">
+          <a class="prev" href="/post/%E6%B5%85%E6%9E%90url/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -451,12 +471,12 @@
 </svg>
 
             </i>
-            <span class="prev-text nav-default">CSS知识总结</span>
+            <span class="prev-text nav-default">浅析URL</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
-          <a class="next" href="/post/%E5%BD%A9%E8%99%B9/">
-            <span class="next-text nav-default">彩虹</span>
+          <a class="next" href="/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/">
+            <span class="next-text nav-default">海贼王网站</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">

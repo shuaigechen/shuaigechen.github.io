@@ -396,6 +396,66 @@ Java足够相似&amp;rdquo;，但是比Java简单，使得非专业的网页作�
     </item>
     
     <item>
+      <title>CSS知识总结</title>
+      <link>http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 21 Aug 2019 12:11:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;css知识总结&#34;&gt;CSS知识总结&lt;/h1&gt;
+
+&lt;h3 id=&#34;浏览器的渲染过程&#34;&gt;浏览器的渲染过程&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;根据HTML构建HTML树（DOM）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;根据CSS构建CSS树 （CSSOM）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;将两棵树合并成一颗渲染树（rendtree）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Layout布局（定位）（文档流，盒模型，计算大小和位置）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;panint绘制（把边框颜色，文字颜色，阴影等画出来）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;composiet合成（根据层叠关系展示画面）（把各层之间拍平，然后渲染到界面上）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css动画的两种做法&#34;&gt;CSS动画的两种做法&lt;/h3&gt;
+
+&lt;p&gt;第一种，使用transform，transition 和 :hover&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;重点是使用:hover，创建一个鼠标悬浮事件，让动画效果随着鼠标悬浮产生&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用transform（变形），4个属性：位移，translate、缩放，scale、旋转，rotate、倾斜，slcew&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用transition（过渡），添加中间帧，告诉开头，中间，结尾，怎么样&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;示例代码：&lt;a href=&#34;http://js.jirengu.com/lubag/1/edit?html,css,output&#34;&gt;http://js.jirengu.com/lubag/1/edit?html,css,output&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;第二种，animatioin，@keyframes（关键帧）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;重点是使用@keyframes（关键帧），定义几个节点，定义动画在节点时的样子&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;缩写语法animation时长，过渡方式，延迟，次数，方向，填充模式，是否暂停，动画名&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;示例代码：&lt;a href=&#34;http://js.jirengu.com/yomay/1/edit?html,css,output&#34;&gt;http://js.jirengu.com/yomay/1/edit?html,css,output&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;学习css的重点&#34;&gt;学习css的重点&lt;/h3&gt;
+
+&lt;p&gt;要有想象力！！！基本属性是固定的，如何用属性组合成不同样式才是最重要的&lt;/p&gt;
+
+&lt;p&gt;要学会把图形分解成自己能理解的样子！ 多多练习&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>海贼王网站</title>
       <link>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</link>
       <pubDate>Wed, 21 Aug 2019 12:11:31 +0800</pubDate>
