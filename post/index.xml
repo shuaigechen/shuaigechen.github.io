@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Sep 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2019 12:11:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CSS知识总结</title>
+      <link>http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sun, 08 Sep 2019 12:11:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
+      <description>CSS知识总结 浏览器的渲染过程 根据HTML构建HTML树（DOM） 根据CSS构建CSS树 （CSSOM） 将两棵树合并成一颗渲染树（rendtr</description>
+    </item>
     
     <item>
       <title>JavaScript 的诞生</title>
@@ -54,15 +63,6 @@
       
       <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</guid>
       <description>今天学习了URL，把学到的知识记录下来 URL（Uniform Resource Locator）统一资源定位服务 一个整的URL由以下几部分组成 http://w</description>
-    </item>
-    
-    <item>
-      <title>CSS知识总结</title>
-      <link>http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Wed, 21 Aug 2019 12:11:31 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</guid>
-      <description>CSS知识总结 浏览器的渲染过程 根据HTML构建HTML树（DOM） 根据CSS构建CSS树 （CSSOM） 将两棵树合并成一颗渲染树（rendtr</description>
     </item>
     
     <item>
