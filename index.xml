@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 08 Sep 2019 12:11:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,170 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>JS语法总结</title>
+      <link>http://localhost:1313/post/js%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 14 Sep 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;js的基本语法&#34;&gt;JS的基本语法&lt;/h1&gt;
+
+&lt;h3 id=&#34;js的表达式和语句&#34;&gt;JS的表达式和语句&lt;/h3&gt;
+
+&lt;p&gt;表达式是输出值的，并且可以写在任何需要一个值的地方。例如函数调用里面的实参&lt;/p&gt;
+
+&lt;p&gt;笼统来说，一个语句表示执行了一个动作。循环控制语句和if语句就是例子&lt;/p&gt;
+
+&lt;p&gt;表达式一般都有值，语句可能有，可能没有&lt;/p&gt;
+
+&lt;p&gt;语句一般会改变环境（声明，赋值）&lt;/p&gt;
+
+&lt;p&gt;这两句话，并不绝对&lt;/p&gt;
+
+&lt;h3 id=&#34;标识符的规则&#34;&gt;标识符的规则&lt;/h3&gt;
+
+&lt;p&gt;第一个字符，可以使用Unicode字母或$或_或中文&lt;/p&gt;
+
+&lt;p&gt;后面的字符，可以使用Unicode字母或$或_或中文还有数字&lt;/p&gt;
+
+&lt;p&gt;变量名是标识符，例如：&lt;/p&gt;
+
+&lt;p&gt;var _ = 1&lt;/p&gt;
+
+&lt;p&gt;var $ = 2&lt;/p&gt;
+
+&lt;p&gt;var ______ = 6 （下划线最多使用2个，用多了容易挨揍）&lt;/p&gt;
+
+&lt;p&gt;var 你好 = &amp;ldquo;hi&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;if-else语句&#34;&gt;if&amp;hellip;else语句&lt;/h3&gt;
+
+&lt;p&gt;当指定条件为真，if 语句会执行一段语句。如果条件为假，则执行另一段语句&lt;/p&gt;
+
+&lt;p&gt;语法：&lt;/p&gt;
+
+&lt;p&gt;if（表达式）{&lt;/p&gt;
+
+&lt;p&gt;语句1&lt;/p&gt;
+
+&lt;p&gt;} else{&lt;/p&gt;
+
+&lt;p&gt;语句2&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;{ }花括号在语句只有1句的时候可以省略，不建议省略，容易产生分歧&lt;/p&gt;
+
+&lt;p&gt;使用if&amp;hellip;else时，要注意一些细节，变态情况&lt;/p&gt;
+
+&lt;p&gt;表达式里可以非常变态，例：    a = 1      是错误的
+a = 1，不是a等于1，一个等号是复制后面的内容给前面，不是等于号
+=== 三个等号，才是等于号，绝对等于&lt;/p&gt;
+
+&lt;p&gt;语句1里可以非常变态，例如：嵌套 if else
+代码示例：if （a &amp;lt; 100）
+        if（a &amp;lt; 10）&lt;/p&gt;
+
+&lt;p&gt;语句2里可以非常变态，例如：嵌套 if else
+代码示例：if （a &amp;lt; 100）{
+                      语句1
+                     } else if（a &amp;gt; 1000）{
+                      语句1
+                     } else { 语句2 }
+这是2套if  else&lt;/p&gt;
+
+&lt;p&gt;缩进也可以非常变态，面试题经常下套
+a = 1
+if （a === 2）       （if这句有一个无形的{ }花括号，只包含一句语句）
+console.log（&amp;rdquo;a&amp;rdquo;）
+console.log(&amp;ldquo;a等于2&amp;rdquo;)
+结果是打印出  a等于2&lt;/p&gt;
+
+&lt;h3 id=&#34;while语句&#34;&gt;while语句&lt;/h3&gt;
+
+&lt;p&gt;while 语句可以在某个条件表达式为真的前提下，循环执行指定的一段代码，直到那个表达式不为真时结束循环&lt;/p&gt;
+
+&lt;p&gt;语法：&lt;/p&gt;
+
+&lt;p&gt;while （表达式）{语句}&lt;/p&gt;
+
+&lt;p&gt;判断表达式的真假&lt;/p&gt;
+
+&lt;p&gt;当表达式为真，执行语句，执行完在判断表达式的真假&lt;/p&gt;
+
+&lt;p&gt;当表达式为假，执行后面的语句&lt;/p&gt;
+
+&lt;h3 id=&#34;for-循环&#34;&gt;for 循环&lt;/h3&gt;
+
+&lt;p&gt;for 语句用于创建一个循环，它包含了三个可选的表达式，三个可选的表达式包围在圆括号中并由分号分隔， 后跟一个在循环中执行的语句&lt;/p&gt;
+
+&lt;p&gt;语法：&lt;/p&gt;
+
+&lt;p&gt;for（语句1; 表达式2; 表达式3;）{&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                        循环体
+
+                        }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;（语句1填初始化，表达式2填判断，表达式3填增长）&lt;/p&gt;
+
+&lt;p&gt;先执行语句1&lt;/p&gt;
+
+&lt;p&gt;然后判断表达式2&lt;/p&gt;
+
+&lt;p&gt;如果为真，执行循环体，然后执行语句3&lt;/p&gt;
+
+&lt;p&gt;如果为假，直接退出循环体，执行后面的语句&lt;/p&gt;
+
+&lt;h3 id=&#34;break-退出所有循环-和-continue-退出当前一次循环&#34;&gt;break（退出所有循环）和 continue（退出当前一次循环）&lt;/h3&gt;
+
+&lt;p&gt;例子：&lt;/p&gt;
+
+&lt;p&gt;for（var i = 0; i &amp;lt; 10; i++）{&lt;/p&gt;
+
+&lt;p&gt;if ( i % 2 === 1 ) {&lt;/p&gt;
+
+&lt;p&gt;break } }                  break，只退出最近的循环&lt;/p&gt;
+
+&lt;p&gt;continue                   continue，过，下一个，跳出当前循环&lt;/p&gt;
+
+&lt;h3 id=&#34;label标记语句&#34;&gt;label标记语句&lt;/h3&gt;
+
+&lt;p&gt;标记就是在一条语句前面加个可以引用的标识符（identifier）&lt;/p&gt;
+
+&lt;p&gt;语法:&lt;/p&gt;
+
+&lt;p&gt;foo（在任何情况下写一个标识符，随便起个名字的意思）&lt;/p&gt;
+
+&lt;p&gt;foo : {&lt;/p&gt;
+
+&lt;p&gt;console.log( 1 );&lt;/p&gt;
+
+&lt;p&gt;break foo;&lt;/p&gt;
+
+&lt;p&gt;console.log(&amp;ldquo;本行不会输出&amp;rdquo;)&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;console.log( 2 )&lt;/p&gt;
+
+&lt;p&gt;一道面试题(在火狐浏览器里)：这个东西是什么？&lt;/p&gt;
+
+&lt;p&gt;{&lt;/p&gt;
+
+&lt;p&gt;foo : 1&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;答案：foo 标签，是一个label，语句是 1&lt;/p&gt;
 </description>
       
     </item>
