@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 10:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS 对象基本用法</title>
+      <link>http://localhost:1313/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Wed, 18 Sep 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      <description>JS 对象基本用法 声明对象的两种语法 let obj = { &#39;name&#39; : &#39;frank&amp;quot; , &#39;age&#39; : &#39;18&#39;} 简单写法 let obj = new Object({&#39;name&#39; : &#39;frank&#39;}) 正规写法，有点麻烦 如何删除对象的属性 delete obj.xxx 或 delete obj[&#39;xxx&#39;] obj.xxx === undefined 要区分 属性值</description>
+    </item>
     
     <item>
       <title>JS语法总结</title>

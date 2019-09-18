@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,111 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>JS 对象基本用法</title>
+      <link>http://localhost:1313/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Wed, 18 Sep 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;js-对象基本用法&#34;&gt;JS 对象基本用法&lt;/h1&gt;
+
+&lt;h3 id=&#34;声明对象的两种语法&#34;&gt;声明对象的两种语法&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;let obj = { &#39;name&#39; : &#39;frank&amp;quot; , &#39;age&#39; : &#39;18&#39;}        简单写法
+
+let obj = new Object({&#39;name&#39; : &#39;frank&#39;})        正规写法，有点麻烦
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;如何删除对象的属性&#34;&gt;如何删除对象的属性&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;delete obj.xxx  或   delete obj[&#39;xxx&#39;]
+
+obj.xxx === undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;要区分 属性值为undefined 和  不含属性名&lt;/p&gt;
+
+&lt;p&gt;delete 删除的是整条属性，包括属性名和属性值&lt;/p&gt;
+
+&lt;p&gt;undefined，是把属性值变成空，属性名还存在&lt;/p&gt;
+
+&lt;h3 id=&#34;如何查看对象的属性&#34;&gt;如何查看对象的属性&lt;/h3&gt;
+
+&lt;p&gt;查看所有属性&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;object.keys(obj)  查看属性名
+
+object.values(obj) 查看属性值
+
+object.entries(obj) 查看全部
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;查看自身和共有属性&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;console.dir(obj) 以目录的形式查看
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;或者依次用&lt;/p&gt;
+
+&lt;p&gt;object.keys(obj)  和 (obj._ &lt;em&gt;proto&lt;/em&gt; _) 不推荐使用&lt;/p&gt;
+
+&lt;p&gt;判断一个属性是自身还是共有的&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;obj.hasOwnProperty(toString) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;两种方法查看单个属性&lt;/p&gt;
+
+&lt;p&gt;中括号语法：obj[&amp;lsquo;key&amp;rsquo;]   键名&lt;/p&gt;
+
+&lt;p&gt;点语法：    obj.key      key也是字符串，只不过省略了 &amp;lsquo; &amp;rsquo; 引号&lt;/p&gt;
+
+&lt;p&gt;坑新人语法：obj[key]     这里面的key是变量，变量key的值一般不为&amp;rsquo;key&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;优先使用中括号语法，点语法误导你，认为key不是字符串&lt;/p&gt;
+
+&lt;h3 id=&#34;如何修改或增加对象的属性&#34;&gt;如何修改或增加对象的属性&lt;/h3&gt;
+
+&lt;p&gt;修改和增加差不多，如果属性有了就修改，没有就增加&lt;/p&gt;
+
+&lt;p&gt;直接赋值&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;let obj = { name : &#39;frank&#39; }      name是字符串
+
+obj.name =&#39;frank&#39;                 name是字符串
+
+obj[&#39;name&#39;] = &#39;frank&#39;             name是字符串
+
+obj[&#39;na&#39;+&#39;me&#39;] = &#39;frank&#39;          运算的方法
+
+let key = &#39;name&#39;; obj[key]=&#39;frank&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;错误写法&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;obj[name] = &#39;frank&#39;              错误写法，name是变量，值不确定
+
+let key = &#39;name&#39;; obj.key=&#39;frank&#39;  错误，因为obj.key等价于obj[&#39;key&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;批量赋值&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;object.assign(obj,{age:18,gender:&#39;man&#39;})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;name-in-obj和obj-hasownproperty-name-的区别&#34;&gt;&amp;lsquo;name&amp;rsquo; in obj和obj.hasOwnProperty(&amp;lsquo;name&amp;rsquo;) 的区别&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&#39;name&#39; in object   in只能查看属性，不知道是自身还是共有的 
+
+obj.hasOwnProperty(toString) 判断一个属性是自身还是共有的
+&lt;/code&gt;&lt;/pre&gt;
 </description>
       
     </item>
