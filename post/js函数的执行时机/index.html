@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>JS 对象基本用法 - 峰峰的博客</title>
+  <title>JavaScript 函数的执行时机 - 峰峰的博客</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="FengFeng" />
-  <meta name="description" content="JS 对象基本用法 声明对象的两种语法 let obj = { &#39;name&#39; : &#39;frank&amp;quot; , &#39;age&#39; : &#39;18&#39;} 简单写法 let obj = new Object({&#39;name&#39; : &#39;frank&#39;}) 正规写法，有点麻烦 如何删除对象的属性 delete obj.xxx 或 delete obj[&#39;xxx&#39;] obj.xxx === undefined 要区分 属性值" />
+  <meta name="description" content="JS 函数的执行时机 现在有如下代码，请问会打印出什么？ let i = 0 for(i = 0; i&amp;lt;6; i&#43;&#43;){ setTimeout(()=&amp;gt;{ console.log(i) },0) } 答案：6个6 这个就要从函数的执行时机说起，首先是setTimeo" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.56.3" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/" />
+<link rel="canonical" href="http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/" />
 
 
 
@@ -57,26 +57,26 @@
 
 
 
-<meta property="og:title" content="JS 对象基本用法" />
-<meta property="og:description" content="JS 对象基本用法 声明对象的两种语法 let obj = { &#39;name&#39; : &#39;frank&quot; , &#39;age&#39; : &#39;18&#39;} 简单写法 let obj = new Object({&#39;name&#39; : &#39;frank&#39;}) 正规写法，有点麻烦 如何删除对象的属性 delete obj.xxx 或 delete obj[&#39;xxx&#39;] obj.xxx === undefined 要区分 属性值" />
+<meta property="og:title" content="JavaScript 函数的执行时机" />
+<meta property="og:description" content="JS 函数的执行时机 现在有如下代码，请问会打印出什么？ let i = 0 for(i = 0; i&lt;6; i&#43;&#43;){ setTimeout(()=&gt;{ console.log(i) },0) } 答案：6个6 这个就要从函数的执行时机说起，首先是setTimeo" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/" />
-<meta property="article:published_time" content="2019-09-18T10:51:31+08:00" />
-<meta property="article:modified_time" content="2019-09-18T10:51:31+08:00" />
-<meta itemprop="name" content="JS 对象基本用法">
-<meta itemprop="description" content="JS 对象基本用法 声明对象的两种语法 let obj = { &#39;name&#39; : &#39;frank&quot; , &#39;age&#39; : &#39;18&#39;} 简单写法 let obj = new Object({&#39;name&#39; : &#39;frank&#39;}) 正规写法，有点麻烦 如何删除对象的属性 delete obj.xxx 或 delete obj[&#39;xxx&#39;] obj.xxx === undefined 要区分 属性值">
+<meta property="og:url" content="http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/" />
+<meta property="article:published_time" content="2019-10-04T10:51:31+08:00" />
+<meta property="article:modified_time" content="2019-10-04T10:51:31+08:00" />
+<meta itemprop="name" content="JavaScript 函数的执行时机">
+<meta itemprop="description" content="JS 函数的执行时机 现在有如下代码，请问会打印出什么？ let i = 0 for(i = 0; i&lt;6; i&#43;&#43;){ setTimeout(()=&gt;{ console.log(i) },0) } 答案：6个6 这个就要从函数的执行时机说起，首先是setTimeo">
 
 
-<meta itemprop="datePublished" content="2019-09-18T10:51:31&#43;08:00" />
-<meta itemprop="dateModified" content="2019-09-18T10:51:31&#43;08:00" />
-<meta itemprop="wordCount" content="588">
+<meta itemprop="datePublished" content="2019-10-04T10:51:31&#43;08:00" />
+<meta itemprop="dateModified" content="2019-10-04T10:51:31&#43;08:00" />
+<meta itemprop="wordCount" content="304">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="JS 对象基本用法"/>
-<meta name="twitter:description" content="JS 对象基本用法 声明对象的两种语法 let obj = { &#39;name&#39; : &#39;frank&quot; , &#39;age&#39; : &#39;18&#39;} 简单写法 let obj = new Object({&#39;name&#39; : &#39;frank&#39;}) 正规写法，有点麻烦 如何删除对象的属性 delete obj.xxx 或 delete obj[&#39;xxx&#39;] obj.xxx === undefined 要区分 属性值"/>
+<meta name="twitter:title" content="JavaScript 函数的执行时机"/>
+<meta name="twitter:description" content="JS 函数的执行时机 现在有如下代码，请问会打印出什么？ let i = 0 for(i = 0; i&lt;6; i&#43;&#43;){ setTimeout(()=&gt;{ console.log(i) },0) } 答案：6个6 这个就要从函数的执行时机说起，首先是setTimeo"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -338,11 +338,11 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">JS 对象基本用法</h1>
+      <h1 class="post-title">JavaScript 函数的执行时机</h1>
       
       <div class="post-meta">
-        <time datetime="2019-09-18" class="post-time">
-          2019-09-18
+        <time datetime="2019-10-04" class="post-time">
+          2019-10-04
         </time>
         
         
@@ -362,15 +362,15 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#js-对象基本用法">JS 对象基本用法</a>
+<li>
+<ul>
+<li><a href="#js-函数的执行时机">JS 函数的执行时机</a>
 <ul>
 <li>
 <ul>
-<li><a href="#声明对象的两种语法">声明对象的两种语法</a></li>
-<li><a href="#如何删除对象的属性">如何删除对象的属性</a></li>
-<li><a href="#如何查看对象的属性">如何查看对象的属性</a></li>
-<li><a href="#如何修改或增加对象的属性">如何修改或增加对象的属性</a></li>
-<li><a href="#name-in-obj和obj-hasownproperty-name-的区别">&lsquo;name&rsquo; in obj和obj.hasOwnProperty(&lsquo;name&rsquo;) 的区别</a></li>
+<li><a href="#现在有如下代码-请问会打印出什么">现在有如下代码，请问会打印出什么？</a></li>
+<li><a href="#有什么办法可以打印出-0-1-2-3-4-5">有什么办法可以打印出 0、1、2、3、4、5</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -382,98 +382,42 @@
     <div class="post-content">
       
 
-<h1 id="js-对象基本用法">JS 对象基本用法</h1>
+<h2 id="js-函数的执行时机">JS 函数的执行时机</h2>
 
-<h3 id="声明对象的两种语法">声明对象的两种语法</h3>
+<h4 id="现在有如下代码-请问会打印出什么">现在有如下代码，请问会打印出什么？</h4>
 
-<pre><code>let obj = { 'name' : 'frank&quot; , 'age' : '18'}        简单写法
-
-let obj = new Object({'name' : 'frank'})        正规写法，有点麻烦
+<pre><code>let i = 0
+for(i = 0; i&lt;6; i++){
+  setTimeout(()=&gt;{
+    console.log(i)
+  },0)
+}
 </code></pre>
 
-<h3 id="如何删除对象的属性">如何删除对象的属性</h3>
+<p>答案：6个6</p>
 
-<pre><code>delete obj.xxx  或   delete obj['xxx']
+<p>这个就要从函数的执行时机说起，首先是setTimeout，过一段时间执行，尽快执行，先把当前所有代码执行</p>
 
-obj.xxx === undefined
+<p>完，才做等一会做的事情</p>
+
+<p>所以，会先把整个循环执行完，在进行打印i。先执行整个循环，最后i=6，i跳出for循环，然后打印出i，要</p>
+
+<p>打印6次，所以是6个6，要把手头上的事处理完，然后就打印出i</p>
+
+<h4 id="有什么办法可以打印出-0-1-2-3-4-5">有什么办法可以打印出 0、1、2、3、4、5</h4>
+
+<p>代码如下：</p>
+
+<pre><code>for（let i=0; i&lt;6; i++）{
+ setTimeout(()=&gt;{
+    console.log(i)
+  },0)
+}
 </code></pre>
 
-<p>要区分 属性值为undefined 和  不含属性名</p>
+<p>因为JS在for和let一起用时会加东西，每次循环时会多创建一个i，打印时，就会把0、1、2、3、4、5依次放</p>
 
-<p>delete 删除的是整条属性，包括属性名和属性值</p>
-
-<p>undefined，是把属性值变成空，属性名还存在</p>
-
-<h3 id="如何查看对象的属性">如何查看对象的属性</h3>
-
-<p>查看所有属性</p>
-
-<pre><code>object.keys(obj)  查看属性名
-
-object.values(obj) 查看属性值
-
-object.entries(obj) 查看全部
-</code></pre>
-
-<p>查看自身和共有属性</p>
-
-<pre><code>console.dir(obj) 以目录的形式查看
-</code></pre>
-
-<p>或者依次用</p>
-
-<p>object.keys(obj)  和 (obj._ <em>proto</em> _) 不推荐使用</p>
-
-<p>判断一个属性是自身还是共有的</p>
-
-<pre><code>obj.hasOwnProperty(toString) 
-</code></pre>
-
-<p>两种方法查看单个属性</p>
-
-<p>中括号语法：obj[&lsquo;key&rsquo;]   键名</p>
-
-<p>点语法：    obj.key      key也是字符串，只不过省略了 &lsquo; &rsquo; 引号</p>
-
-<p>坑新人语法：obj[key]     这里面的key是变量，变量key的值一般不为&rsquo;key&rsquo;</p>
-
-<p>优先使用中括号语法，点语法误导你，认为key不是字符串</p>
-
-<h3 id="如何修改或增加对象的属性">如何修改或增加对象的属性</h3>
-
-<p>修改和增加差不多，如果属性有了就修改，没有就增加</p>
-
-<p>直接赋值</p>
-
-<pre><code>let obj = { name : 'frank' }      name是字符串
-
-obj.name ='frank'                 name是字符串
-
-obj['name'] = 'frank'             name是字符串
-
-obj['na'+'me'] = 'frank'          运算的方法
-
-let key = 'name'; obj[key]='frank'
-</code></pre>
-
-<p>错误写法</p>
-
-<pre><code>obj[name] = 'frank'              错误写法，name是变量，值不确定
-
-let key = 'name'; obj.key='frank'  错误，因为obj.key等价于obj['key']
-</code></pre>
-
-<p>批量赋值</p>
-
-<pre><code>object.assign(obj,{age:18,gender:'man'})
-</code></pre>
-
-<h3 id="name-in-obj和obj-hasownproperty-name-的区别">&lsquo;name&rsquo; in obj和obj.hasOwnProperty(&lsquo;name&rsquo;) 的区别</h3>
-
-<pre><code>'name' in object   in只能查看属性，不知道是自身还是共有的 
-
-obj.hasOwnProperty(toString) 判断一个属性是自身还是共有的
-</code></pre>
+<p>入i中打印出来，而不是打印6个6</p>
 
     </div>
 
@@ -487,7 +431,7 @@ obj.hasOwnProperty(toString) 判断一个属性是自身还是共有的
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-09-18
+      2019-10-04
       
     </span>
   </p>
@@ -508,22 +452,9 @@ obj.hasOwnProperty(toString) 判断一个属性是自身还是共有的
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">JavaScript 函数的执行时机</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/js%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/">
-            <span class="next-text nav-default">JS语法总结</span>
+          <a class="next" href="/post/js-%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/">
+            <span class="next-text nav-default">JS 对象基本用法</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Sep 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2019 10:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript 函数的执行时机</title>
+      <link>http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</link>
+      <pubDate>Fri, 04 Oct 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</guid>
+      <description>JS 函数的执行时机 现在有如下代码，请问会打印出什么？ let i = 0 for(i = 0; i&amp;lt;6; i++){ setTimeout(()=&amp;gt;{ console.log(i) },0) } 答案：6个6 这个就要从函数的执行时机说起，首先是setTimeo</description>
+    </item>
     
     <item>
       <title>JS 对象基本用法</title>

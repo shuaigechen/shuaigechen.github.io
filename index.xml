@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Sep 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,55 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>JavaScript 函数的执行时机</title>
+      <link>http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</link>
+      <pubDate>Fri, 04 Oct 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</guid>
+      
+        <description>
+
+&lt;h2 id=&#34;js-函数的执行时机&#34;&gt;JS 函数的执行时机&lt;/h2&gt;
+
+&lt;h4 id=&#34;现在有如下代码-请问会打印出什么&#34;&gt;现在有如下代码，请问会打印出什么？&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;let i = 0
+for(i = 0; i&amp;lt;6; i++){
+  setTimeout(()=&amp;gt;{
+    console.log(i)
+  },0)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;答案：6个6&lt;/p&gt;
+
+&lt;p&gt;这个就要从函数的执行时机说起，首先是setTimeout，过一段时间执行，尽快执行，先把当前所有代码执行&lt;/p&gt;
+
+&lt;p&gt;完，才做等一会做的事情&lt;/p&gt;
+
+&lt;p&gt;所以，会先把整个循环执行完，在进行打印i。先执行整个循环，最后i=6，i跳出for循环，然后打印出i，要&lt;/p&gt;
+
+&lt;p&gt;打印6次，所以是6个6，要把手头上的事处理完，然后就打印出i&lt;/p&gt;
+
+&lt;h4 id=&#34;有什么办法可以打印出-0-1-2-3-4-5&#34;&gt;有什么办法可以打印出 0、1、2、3、4、5&lt;/h4&gt;
+
+&lt;p&gt;代码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for（let i=0; i&amp;lt;6; i++）{
+ setTimeout(()=&amp;gt;{
+    console.log(i)
+  },0)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;因为JS在for和let一起用时会加东西，每次循环时会多创建一个i，打印时，就会把0、1、2、3、4、5依次放&lt;/p&gt;
+
+&lt;p&gt;入i中打印出来，而不是打印6个6&lt;/p&gt;
 </description>
       
     </item>
