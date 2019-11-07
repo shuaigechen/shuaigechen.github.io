@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Oct 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2019 10:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>jQuery 功能</title>
+      <link>http://localhost:1313/post/jquery%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Thu, 07 Nov 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/jquery%E5%8A%9F%E8%83%BD/</guid>
+      <description>jQuery 功能介绍 jQuery介绍 jQuery 是一种快速简洁的JavaScript库，由John Resig 在 2006 年创建，它的理念很好——用更少的代码，实现更多的功能 jQuery 简</description>
+    </item>
     
     <item>
       <title>JavaScript 函数的执行时机</title>

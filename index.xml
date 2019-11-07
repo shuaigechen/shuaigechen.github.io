@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Oct 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,111 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>jQuery 功能</title>
+      <link>http://localhost:1313/post/jquery%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Thu, 07 Nov 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/jquery%E5%8A%9F%E8%83%BD/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;jquery-功能介绍&#34;&gt;jQuery 功能介绍&lt;/h1&gt;
+
+&lt;h3 id=&#34;jquery介绍&#34;&gt;jQuery介绍&lt;/h3&gt;
+
+&lt;p&gt;jQuery 是一种快速简洁的JavaScript库，由John Resig 在 2006 年创建，它的理念很好——用更少的代码，实现更多的功能&lt;/p&gt;
+
+&lt;p&gt;jQuery 简化了 HTML 文档遍历、事件处理、动画以及 Ajax 交互，用于快速 web 开发&lt;/p&gt;
+
+&lt;p&gt;jQuery 是一个 JavaScript 工具包，旨在通过编写更少的代码来简化各种任务&lt;/p&gt;
+
+&lt;h3 id=&#34;jquery-的链式操作&#34;&gt;jQuery 的链式操作&lt;/h3&gt;
+
+&lt;p&gt;jQuery（选择器）用于获取对应的元素，但它却不返回这些元素，它返回一个对象（称为jQuery构造出来的对象）这个对象可以操作对应的元素，所以不同的操作可以链在一起，实现链式操作&lt;/p&gt;
+
+&lt;p&gt;使用 window.$ = window.jQuey 来简写jQuery&lt;/p&gt;
+
+&lt;h3 id=&#34;jquery-获取元素&#34;&gt;jQuery 获取元素&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;#xxx&#39;) 返回值并不是元素，而是一个api对象
+
+$(&#39;#xxx&#39;).find(&#39;.red&#39;) 查找#xxx里的.red元素
+
+$(&#39;#xxx&#39;).parent() 获取爸爸
+
+$(&#39;#xxx&#39;).children() 获取儿子
+
+$(&#39;#xxx&#39;).siblings() 获取兄弟
+
+$(&#39;#xxx&#39;).index() 获取排行第几
+
+$(&#39;#xxx&#39;).next() 获取弟弟
+
+$(&#39;#xxx&#39;).prev() 获取哥哥
+
+$(&#39;#xxx&#39;).each(fn) 遍历并对每个元素执行fn函数
+
+$(&#39;#xxx&#39;).html() 取出或设置html内容
+
+$(&#39;#xxx&#39;).text() 取出或设置text内容
+
+$(&#39;#xxx&#39;).attr() 取出或设置某个属性的值
+
+$(&#39;#xxx&#39;).width() 取出或设置某个元素的宽度
+
+$(&#39;#xxx&#39;).height() 取出或设置某个元素的高度
+
+$(&#39;#xxx&#39;).val() 取出某个表单元素的值
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;jquery-创建元素&#34;&gt;jQuery 创建元素&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&#39;)  创建div
+
+思路：接收一个字符串，把字符串对应的div创建出来，不直接返回div，返回div对应的api
+
+.appendTo(document.body)  插入到body（页面中）让创建的div展示在页面上
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;jquery-移动元素&#34;&gt;jQuery 移动元素&lt;/h3&gt;
+
+&lt;p&gt;一种方法是直接移动该元素，另一种方法是移动其他元素，使得目标元素达到我们想要的位置&lt;/p&gt;
+
+&lt;p&gt;第一种方法是使用.insertAfter()，把div元素移动p元素后面：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;div&#39;).insertAfter($(&#39;p&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;第二种方法是使用.after()，把p元素加到div元素前面：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;p&#39;).after($(&#39;div&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;两种方法的区别是返回的元素不一样，第一种方法返回div元素，第二种方法返回p元素。可以根据需要，选择到底使用哪一种方法&lt;/p&gt;
+
+&lt;h3 id=&#34;jquery-修改元素的属性&#34;&gt;jQuery 修改元素的属性&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$div.text(?)  读写文本内容，想改一个div的文本，就在api上实现一个text，如果传了参数就是写文本，没穿参数就是读文本
+
+$div.html(?)   读写HTML内容
+
+$div.attr(&#39;title&#39;,?)   读写属性
+
+$div.css({color:&#39;red&#39;})  读写style，jQuery.css是操作内联的style，不是操作css
+
+$div.addClass(&#39;blue&#39;)  
+
+$div.on(&#39;click&#39;,fn)
+
+$div.off(&#39;click&#39;,fn)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;jQuery整体来看，就是声明了一个函数，函数获取到elements，然后返回一个对象，这个对象的api会操作elements&lt;/p&gt;
 </description>
       
     </item>
