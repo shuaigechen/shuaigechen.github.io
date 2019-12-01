@@ -69,7 +69,7 @@
 
 <meta itemprop="datePublished" content="2019-12-01T10:51:31&#43;08:00" />
 <meta itemprop="dateModified" content="2019-12-01T10:51:31&#43;08:00" />
-<meta itemprop="wordCount" content="625">
+<meta itemprop="wordCount" content="569">
 
 
 
@@ -368,7 +368,7 @@
 <ul>
 <li><a href="#m-model">M-Model</a></li>
 <li><a href="#v-view">V-View</a></li>
-<li><a href="#v-view-1">V-View</a></li>
+<li><a href="#c-controller">C-Controller</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#eventbus">EventBus</a>
@@ -430,7 +430,7 @@ C-Controller控制器 （其它）</p>
 
 <p>所有关于视图的代码都放在V对象里</p>
 
-<h3 id="v-view-1">V-View</h3>
+<h3 id="c-controller">C-Controller</h3>
 
 <pre><code>const c = {
     events: {
@@ -511,11 +511,13 @@ C-Controller控制器 （其它）</p>
 
 <h1 id="模块化">模块化</h1>
 
-<p>模块化的开发方式可以提高代码复用率，方便进行代码的管理
-通常一个文件就是一个模块，有自己的作用域，只向外暴露特定的变量和函数
-把一个整个项目拆分成独立模块，每个模块单独负责一个功能，方便管理，分工明确，思路清晰
-如果需要调整功能或需求，只需要找到对应的模块，进行修改即可，方便快捷，并对其它模块没有影响
-对于我个人而言，之前写代码，并没有明确的思路和方式，模块化能让我理清思路，让我了解每部分代码的功能，以及优化方式</p>
+<p>模块化的开发方式可以提高代码复用率，方便进行代码的管理</p>
+
+<p>通常一个文件就是一个模块，有自己的作用域，只向外暴露特定的变量和函数</p>
+
+<p>把一个整个项目拆分成独立模块，每个模块单独负责一个功能，方便管理，分工明确，思路清晰</p>
+
+<p>如果需要调整功能或需求，只需要找到对应的模块，进行修改即可，方便快捷，并对其它模块没有影响</p>
 
     </div>
 
