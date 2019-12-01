@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Nov 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 10:51:31 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MVC</title>
+      <link>http://localhost:1313/post/%E5%88%9D%E8%AF%86mvc/</link>
+      <pubDate>Sun, 01 Dec 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%88%9D%E8%AF%86mvc/</guid>
+      <description>MVC MVC是一种设计模式，把每个模块分别写成三个对象 M-Model 数据模型（负责操作所有数据） V-View 视图 （负责所有UI界面） C-Controller控制器 （其</description>
+    </item>
     
     <item>
       <title>jQuery 功能</title>

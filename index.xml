@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Nov 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,145 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>MVC</title>
+      <link>http://localhost:1313/post/%E5%88%9D%E8%AF%86mvc/</link>
+      <pubDate>Sun, 01 Dec 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%88%9D%E8%AF%86mvc/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;mvc&#34;&gt;MVC&lt;/h1&gt;
+
+&lt;p&gt;MVC是一种设计模式，把每个模块分别写成三个对象
+M-Model 数据模型（负责操作所有数据）
+V-View  视图 （负责所有UI界面）
+C-Controller控制器 （其它）&lt;/p&gt;
+
+&lt;h3 id=&#34;m-model&#34;&gt;M-Model&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;const m = {
+    data: {
+        n: parseInt(localStorage.getItem(&#39;n&#39;))
+    },
+    update(data) {
+        Object.assign(m.data, data)
+        eventBus.trigger(&#39;m:updated&#39;)
+        localStorage.setItem(&#39;n&#39;, m.data.n)
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;所有关于数据的代码都放在M对象里&lt;/p&gt;
+
+&lt;h3 id=&#34;v-view&#34;&gt;V-View&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;const v = {
+    el: null,
+    init(container) {
+        v.el = $(container)
+    },
+    render(n) {
+        if (v.el.children.length !== 0) v.el.empty()
+        $(v.html.replace(&#39;{{n}}&#39;, n))
+            .appendTo(v.el)
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;所有关于视图的代码都放在V对象里&lt;/p&gt;
+
+&lt;h3 id=&#34;v-view-1&#34;&gt;V-View&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;const c = {
+    events: {
+        &#39;click #add1&#39;: &#39;add&#39;,
+        &#39;click #minus1&#39;: &#39;minus&#39;,
+        &#39;click #mul2&#39;: &#39;mul&#39;,
+        &#39;click #divide2&#39;: &#39;div&#39;,
+    },
+    add() {
+        m.update({ n: m.data.n + 1 })
+    },
+    minus() {
+        m.update({ n: m.data.n - 1 })
+    },
+    mul() {
+        m.update({ n: m.data.n * 2 })
+    },
+    div() {
+        m.update({ n: m.data.n / 2 })
+    },
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;其它操作的代码放在C对象里&lt;/p&gt;
+
+&lt;h1 id=&#34;eventbus&#34;&gt;EventBus&lt;/h1&gt;
+
+&lt;p&gt;EventBus用于简化模块对象之间的通信，让代码更简洁
+常用的API有，on，off&lt;/p&gt;
+
+&lt;h3 id=&#34;eventbus-on&#34;&gt;EventBus.$on&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;EventBus.$on(&#39;getTarget&#39;, target =&amp;gt; {  
+            console.log(target) 
+        })
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;监听事件&lt;/p&gt;
+
+&lt;h3 id=&#34;eventbus-off&#34;&gt;EventBus.$off&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;EventBus.$off(&#39;target&#39;, {})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;移除事件&lt;/p&gt;
+
+&lt;h1 id=&#34;表驱动编程&#34;&gt;表驱动编程&lt;/h1&gt;
+
+&lt;p&gt;表驱动法是指用查表的方法获取值，用数据代替逻辑，减少代码体量
+例如简写下面代码&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Model{
+    constructor(options){
+        this.data = options.data
+        this.update = options.update
+        this.create = options.create
+        this.delete = options.delete
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;当options的属性变多时，这段代码就会重复，使用表驱动简写代码&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Model{
+    constructor(options){
+        const keys = [&#39;data&#39;,&#39;update&#39;,&#39;create&#39;,&#39;delete&#39;]
+        keys.forEach((key)=&amp;gt;{
+            if(key in options){
+                this[key] = options[key]
+            }
+        })
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;无论options有多少属性，只需要添加到表里就可以了&lt;/p&gt;
+
+&lt;h1 id=&#34;模块化&#34;&gt;模块化&lt;/h1&gt;
+
+&lt;p&gt;模块化的开发方式可以提高代码复用率，方便进行代码的管理
+通常一个文件就是一个模块，有自己的作用域，只向外暴露特定的变量和函数
+把一个整个项目拆分成独立模块，每个模块单独负责一个功能，方便管理，分工明确，思路清晰
+如果需要调整功能或需求，只需要找到对应的模块，进行修改即可，方便快捷，并对其它模块没有影响
+对于我个人而言，之前写代码，并没有明确的思路和方式，模块化能让我理清思路，让我了解每部分代码的功能，以及优化方式&lt;/p&gt;
 </description>
       
     </item>
