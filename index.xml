@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Dec 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,74 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Vue 两个版本的区别</title>
+      <link>http://localhost:1313/post/vue%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Sat, 14 Dec 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/vue%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC%E5%8C%BA%E5%88%AB/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;vue&#34;&gt;Vue&lt;/h1&gt;
+
+&lt;p&gt;Vue是一套用于构建用户界面的渐进式框架
+与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用
+Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合
+另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。&lt;/p&gt;
+
+&lt;h1 id=&#34;vue的两个版本&#34;&gt;vue的两个版本&lt;/h1&gt;
+
+&lt;h3 id=&#34;vue完整版&#34;&gt;vue完整版&lt;/h3&gt;
+
+&lt;p&gt;vue.js
+vue.min.js&lt;/p&gt;
+
+&lt;h3 id=&#34;vue非完整版&#34;&gt;vue非完整版&lt;/h3&gt;
+
+&lt;p&gt;vue.runtime.js
+vue.runtime.min.js&lt;/p&gt;
+
+&lt;h3 id=&#34;vue完整版-template的使用方法&#34;&gt;vue完整版 template的使用方法&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;template&amp;gt;
+    &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;      
+        {{n}}
+        &amp;lt;button @click=&amp;quot;add&amp;quot;&amp;gt;+1&amp;lt;/button&amp;gt;   
+   &amp;lt;/div&amp;gt; 
+&amp;lt;/template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;template可以直接写在页面上或JS上&lt;/p&gt;
+
+&lt;h3 id=&#34;vue非完整版-render的使用方法&#34;&gt;vue非完整版 render的使用方法&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;render(h){
+     return h(&#39;div&#39;, this.n)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;render函数接收一个参数，vue传的；用这个参数去创建实例&lt;/p&gt;
+
+&lt;h3 id=&#34;两个版本的具体区别&#34;&gt;两个版本的具体区别&lt;/h3&gt;
+
+&lt;p&gt;完整版里有compiler（编译器），非完整版里没有，占40%的体积
+完整版视图写在HTML或template选项，非完整版写在render函数里，用h来创建标签
+文件名不同，生产环境文件后缀为.min.js&lt;/p&gt;
+
+&lt;h3 id=&#34;最佳使用方法&#34;&gt;最佳使用方法&lt;/h3&gt;
+
+&lt;p&gt;使用非完整版，配合vue-loader 和 vue文件使用&lt;/p&gt;
+
+&lt;p&gt;保证用户体验，用户下载的JS文件体积更小，但只支持h函数
+保证开发体验，开发者可直接在vue文件里写HTML标签，而不写h函数
+让vue-loader翻译，把vue文件里的HTML转为h函数&lt;/p&gt;
+
+&lt;p&gt;vue实例预览：&lt;a href=&#34;https://codesandbox.io/s/gracious-violet-jwx12&#34;&gt;https://codesandbox.io/s/gracious-violet-jwx12&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
