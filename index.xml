@@ -6,7 +6,7 @@
     <description>Recent content on 峰峰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Dec 2019 10:51:31 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 10:51:31 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,87 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>.sync操作符</title>
+      <link>http://localhost:1313/post/vue%E7%9A%84.sync%E6%93%8D%E4%BD%9C%E7%AC%A6%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
+      <pubDate>Sun, 29 Dec 2019 10:51:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/vue%E7%9A%84.sync%E6%93%8D%E4%BD%9C%E7%AC%A6%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;sync操作符&#34;&gt;.sync操作符&lt;/h1&gt;
+
+&lt;p&gt;需求：如何实现Vue组件之间的数据通信&lt;/p&gt;
+
+&lt;p&gt;Vue规则：组件不能修改props外部数据，$emit可以触发事件并传参，$event可以获取$emit的参数&lt;/p&gt;
+
+&lt;p&gt;示例代码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// main.js 此处是「非完整版」vue
+import Vue from &amp;quot;vue&amp;quot;;
+import App from &amp;quot;./App.vue&amp;quot;;
+
+Vue.config.productionTip = false;
+
+new Vue({
+  render: h =&amp;gt; h(App)
+}).$mount(&amp;quot;#app&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;// App.vue
+&amp;lt;template&amp;gt;
+  &amp;lt;div class=&amp;quot;app&amp;quot;&amp;gt;
+    App.vue 我现在有 {{total}}
+    &amp;lt;hr&amp;gt;
+    &amp;lt;child :money=&amp;quot;total&amp;quot; v-on:update:money=&amp;quot;total&amp;quot;=$event /&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/template&amp;gt;
+
+&amp;lt;script&amp;gt;
+import Child from &amp;quot;./Child.vue&amp;quot;;
+export default {
+    data(){
+        return {total: 10000};
+    },
+    components:{Child: Child}
+};
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;// Child.vue
+&amp;lt;template&amp;gt;
+  &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt;
+    {{money}}
+    &amp;lt;button @click=&amp;quot;$emit(&#39;update:money&#39;, money-100)&amp;quot;&amp;gt;
+      &amp;lt;span&amp;gt;花钱&amp;lt;/span&amp;gt;
+    &amp;lt;/button&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/template&amp;gt;
+
+&amp;lt;script&amp;gt;
+export default{
+    props:{&amp;quot;money&amp;quot;}
+};
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;通过代码发现，爸爸给了儿子money，儿子不能直接修改外部数据，需要触发事件，爸爸会得到儿子传过来的参数并同步到total上&lt;/p&gt;
+
+&lt;p&gt;我们的需求是：当一个子组件改变了一个props的值时，这个变化也会同步到父组件中&lt;/p&gt;
+
+&lt;p&gt;Vue根据这种模式提供了缩写，也就是 .sync修饰符&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;child :money=&amp;quot;total&amp;quot; v-on:update:money=&amp;quot;total&amp;quot;=$event /&amp;gt;
+等价于
+&amp;lt;Child :money.sync=&amp;quot;total&amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Vue通过.sync实现数据双向绑定，从而同步父子组件数据&lt;/p&gt;
 </description>
       
     </item>
